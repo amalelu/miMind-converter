@@ -1,0 +1,1 @@
+<Sig app="miMind" company="CryptoBees" version="26.3.12" platform="Windows" website="https://mimind.cryptobees.com"/>
