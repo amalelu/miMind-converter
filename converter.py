@@ -553,6 +553,25 @@ def _indent(depth: int) -> str:
     return "  " * (depth + 1)
 
 
+def _compute_position(parent: MiMindNode, child: MiMindNode):
+    """Determine Freeplane POSITION, HGAP, VSHIFT from parent's layout direction."""
+    delta_x = child.relative_x - parent.relative_x
+    delta_y = child.relative_y - parent.relative_y
+    direction = parent.layout_direction
+
+    if direction == 3:       # LEFT
+        return "left", round(abs(delta_x)), round(delta_y)
+    elif direction == 4:     # RIGHT
+        return "right", round(abs(delta_x)), round(delta_y)
+    elif direction == 2:     # DOWN → RIGHT
+        return "right", round(abs(delta_y)), round(delta_x)
+    elif direction == 1:     # UP → LEFT
+        return "left", round(abs(delta_y)), round(-delta_x)
+    else:                    # 0 (auto), 6 (balanced), unknown → X-delta fallback
+        pos = "left" if delta_x < 0 else "right"
+        return pos, round(abs(delta_x)), round(delta_y)
+
+
 def _emit_node(node: MiMindNode, lines: list[str], depth: int, is_root: bool = False, parent: MiMindNode | None = None):
     """Recursively emit a <node> element."""
     ind = _indent(depth)
@@ -582,22 +601,10 @@ def _emit_node(node: MiMindNode, lines: list[str], depth: int, is_root: bool = F
     if node.folded:
         attrs.append('FOLDED="true"')
 
-    # Compute delta from parent's absolute canvas position
-    # miMind iRelativeX/Y are ABSOLUTE canvas coords, not relative to parent
+    # Compute position from parent's layout direction and canvas coordinates
     if node.node_id != "synthetic_root" and parent is not None:
-        delta_x = node.relative_x - parent.relative_x
-        delta_y = node.relative_y - parent.relative_y
-
-        # Position (left/right side of parent)
-        # delta_x < 0 means child is to the LEFT of parent on the canvas
-        if delta_x < 0:
-            attrs.append('POSITION="left"')
-        else:
-            attrs.append('POSITION="right"')
-
-        # HGAP = horizontal distance from parent, VSHIFT = vertical offset
-        hgap = round(abs(delta_x))
-        vshift = round(delta_y)
+        position, hgap, vshift = _compute_position(parent, node)
+        attrs.append(f'POSITION="{position}"')
         if hgap != 0 or vshift != 0:
             attrs.append(f'HGAP_QUANTITY="{hgap} px"')
             attrs.append(f'VSHIFT_QUANTITY="{vshift} px"')
