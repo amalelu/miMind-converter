@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""Convert miMind mind map XML to Freeplane .mm format."""
+"""Convert miMind mind map XML to Freeplane .mm or JSON format."""
 
 import argparse
+import json
 import os
 import re
 import sys
@@ -46,8 +47,19 @@ class MiMindNode:
     folded: bool = False
     notes: str = ""
     shape_type: str = ""
-    layout_direction: int = 0
+    layout_type: int = 0           # eSubNodeLayout: 0=Map, 1=Tree, 2=Outline
+    layout_direction: int = 0      # eSubNodeLayoutDirection: 0=Auto..6=Balanced
+    layout_spacing: float = 50.0   # fSubNodeLayoutSpacing
+    corner_radius_percent: float = 0.0
+    frame_thickness: float = 0.0
+    show_frame: bool = False
+    show_shadow: bool = False
     color_schema_level: int = -1
+    color_schema_palette: str = ""
+    color_schema_variant: int = 0
+    color_schema_starts_at_root: bool = True
+    color_schema_connections_colored: bool = True
+    color_schema_theme_id: str = ""
     color_groups: list[dict] = field(default_factory=list)
     children: list["MiMindNode"] = field(default_factory=list)
     # Positioning
@@ -70,6 +82,11 @@ class MiMindConnection:
     color: str = ""
     line_width: int = 0
     label: str = ""
+    line_style: int = 0
+    visible: bool = True
+    anchor_from: int = 0
+    anchor_to: int = 0
+    control_points: list[tuple[float, float]] = field(default_factory=list)
 
 
 # ---------------------------------------------------------------------------
@@ -308,6 +325,14 @@ def _parse_node(mm_node: ET.Element) -> MiMindNode:
         layout_dir = int(mm_node.get("eSubNodeLayoutDirection", "0"))
     except ValueError:
         layout_dir = 0
+    try:
+        layout_type = int(mm_node.get("eSubNodeLayout", "0"))
+    except ValueError:
+        layout_type = 0
+    try:
+        layout_spacing = float(mm_node.get("fSubNodeLayoutSpacing", "50"))
+    except ValueError:
+        layout_spacing = 50.0
 
     # Extract positioning
     try:
@@ -346,11 +371,25 @@ def _parse_node(mm_node: ET.Element) -> MiMindNode:
     bg_color = ""
     frame_color = ""
     shape_type = ""
+    corner_radius_pct = 0.0
+    frame_thickness = 0.0
+    show_frame = False
+    show_shadow = False
     node_shape = mm_node.find("NodeShape")
     if node_shape is not None:
         bg_color = rgba_to_hex(node_shape.get("cBackColor", ""))
         frame_color = rgba_to_hex(node_shape.get("cFrameColor", ""))
         shape_type = node_shape.get("type", "")
+        try:
+            corner_radius_pct = float(node_shape.get("fCornerRadiusPercent", "0"))
+        except ValueError:
+            corner_radius_pct = 0.0
+        try:
+            frame_thickness = float(node_shape.get("fFrameThickness", "0"))
+        except ValueError:
+            frame_thickness = 0.0
+        show_frame = node_shape.get("bDoFrame", "0") == "1"
+        show_shadow = node_shape.get("bDoShadow", "0") == "1"
 
     # Parse text color from node-level TextFormat (not inside EditText)
     text_color = ""
@@ -390,12 +429,25 @@ def _parse_node(mm_node: ET.Element) -> MiMindNode:
     # Parse color schema
     color_groups = []
     color_schema_level = -1
+    color_schema_palette = ""
+    color_schema_variant = 0
+    color_schema_starts_at_root = True
+    color_schema_connections_colored = True
+    color_schema_theme_id = ""
     cs = mm_node.find("colorSchema")
     if cs is not None:
         try:
             color_schema_level = int(cs.get("level", "-1"))
         except ValueError:
             color_schema_level = -1
+        color_schema_palette = cs.get("paletteName", "")
+        try:
+            color_schema_variant = int(cs.get("type", "0"))
+        except ValueError:
+            color_schema_variant = 0
+        color_schema_starts_at_root = cs.get("startsAtRoot", "1") == "1"
+        color_schema_connections_colored = cs.get("con", "1") == "1"
+        color_schema_theme_id = cs.get("cThemeBackColors", "")
         for cg in cs.findall("ColorGroup"):
             color_groups.append({
                 "background": rgba_to_hex(cg.get("cColorBackground", "")),
@@ -421,12 +473,23 @@ def _parse_node(mm_node: ET.Element) -> MiMindNode:
         folded=folded,
         notes=notes,
         shape_type=shape_type,
+        layout_type=layout_type,
         layout_direction=layout_dir,
+        layout_spacing=layout_spacing,
+        corner_radius_percent=corner_radius_pct,
+        frame_thickness=frame_thickness,
+        show_frame=show_frame,
+        show_shadow=show_shadow,
         relative_x=rel_x,
         relative_y=rel_y,
         width=width,
         height=height,
         color_schema_level=color_schema_level,
+        color_schema_palette=color_schema_palette,
+        color_schema_variant=color_schema_variant,
+        color_schema_starts_at_root=color_schema_starts_at_root,
+        color_schema_connections_colored=color_schema_connections_colored,
+        color_schema_theme_id=color_schema_theme_id,
         color_groups=color_groups,
     )
 
@@ -437,11 +500,38 @@ def _parse_connection(mm_conn: ET.Element) -> MiMindConnection:
     target_id = mm_conn.get("iTargetNodeID", "")
     is_cross = mm_conn.get("bIsCrossLink", "0") == "1"
     color = rgba_to_hex(mm_conn.get("cColor", ""))
+    visible = mm_conn.get("bConnectionVisible", "1") != "0"
 
     try:
         line_width = int(float(mm_conn.get("fLineWidth", "0")))
     except ValueError:
         line_width = 0
+    try:
+        line_style = int(mm_conn.get("style", "0"))
+    except ValueError:
+        line_style = 0
+    try:
+        anchor_from = int(mm_conn.get("eShapeOrigin", "0"))
+    except ValueError:
+        anchor_from = 0
+    try:
+        anchor_to = int(mm_conn.get("eShapeTarget", "0"))
+    except ValueError:
+        anchor_to = 0
+
+    # Parse control points: vecUserAdjustedMidPts[N] becomes
+    # vecUserAdjustedMidPts_N after preprocessing, with value "x,y"
+    control_points: list[tuple[float, float]] = []
+    for i in range(10):  # reasonable upper bound
+        val = mm_conn.get(f"vecUserAdjustedMidPts_{i}")
+        if val is None:
+            break
+        parts = val.split(",")
+        if len(parts) == 2:
+            try:
+                control_points.append((float(parts[0]), float(parts[1])))
+            except ValueError:
+                pass
 
     # Parse label from EditText with significance="3"
     label = ""
@@ -460,6 +550,11 @@ def _parse_connection(mm_conn: ET.Element) -> MiMindConnection:
         color=color,
         line_width=line_width,
         label=label,
+        line_style=line_style,
+        visible=visible,
+        anchor_from=anchor_from,
+        anchor_to=anchor_to,
+        control_points=control_points,
     )
 
 
@@ -771,10 +866,114 @@ def _emit_notes(notes: str, lines: list[str], ind: str):
 
 
 # ---------------------------------------------------------------------------
+# JSON generation
+# ---------------------------------------------------------------------------
+
+def generate_json(
+    nodes: dict[str, MiMindNode],
+    connections: list[MiMindConnection],
+    bg_color: str,
+    map_name: str,
+) -> str:
+    """Generate a .mindmap.json string from parsed miMind data."""
+
+    def _node_to_dict(node: MiMindNode) -> dict:
+        # Build text_runs with start/end offsets
+        runs = []
+        offset = 0
+        for run in node.text_runs:
+            end = offset + len(run.text)
+            runs.append({
+                "start": offset,
+                "end": end,
+                "bold": run.bold,
+                "italic": run.italic,
+                "underline": run.underline,
+                "font": run.font,
+                "size_pt": run.size_pt,
+                "color": run.color,
+                "hyperlink": run.hyperlink or None,
+            })
+            offset = end
+
+        # Color schema
+        color_schema = None
+        if node.color_schema_level >= 0:
+            color_schema = {
+                "level": node.color_schema_level,
+                "palette": node.color_schema_palette,
+                "variant": node.color_schema_variant,
+                "starts_at_root": node.color_schema_starts_at_root,
+                "connections_colored": node.color_schema_connections_colored,
+                "theme_id": node.color_schema_theme_id,
+                "groups": node.color_groups,
+            }
+
+        return {
+            "id": node.node_id,
+            "parent_id": node.parent_id if node.parent_id != "0" else None,
+            "index": node.index,
+            "position": {"x": node.relative_x, "y": node.relative_y},
+            "size": {"width": node.width, "height": node.height},
+            "text": node.text,
+            "text_runs": runs,
+            "style": {
+                "background_color": node.background_color,
+                "frame_color": node.frame_color,
+                "text_color": node.text_color,
+                "shape_type": int(node.shape_type) if node.shape_type else 0,
+                "corner_radius_percent": node.corner_radius_percent,
+                "frame_thickness": node.frame_thickness,
+                "show_frame": node.show_frame,
+                "show_shadow": node.show_shadow,
+            },
+            "layout": {
+                "type": node.layout_type,
+                "direction": node.layout_direction,
+                "spacing": node.layout_spacing,
+            },
+            "folded": node.folded,
+            "notes": node.notes,
+            "color_schema": color_schema,
+        }
+
+    def _edge_to_dict(conn: MiMindConnection) -> dict:
+        return {
+            "from_id": conn.origin_id,
+            "to_id": conn.target_id,
+            "type": "cross_link" if conn.is_cross_link else "parent_child",
+            "color": conn.color,
+            "width": conn.line_width,
+            "line_style": conn.line_style,
+            "visible": conn.visible,
+            "label": conn.label or None,
+            "anchor_from": conn.anchor_from,
+            "anchor_to": conn.anchor_to,
+            "control_points": [
+                {"x": pt[0], "y": pt[1]} for pt in conn.control_points
+            ],
+        }
+
+    data = {
+        "version": "1.0",
+        "name": map_name,
+        "canvas": {
+            "background_color": bg_color,
+        },
+        "nodes": {
+            node.node_id: _node_to_dict(node) for node in nodes.values()
+        },
+        "edges": [_edge_to_dict(conn) for conn in connections],
+    }
+
+    return json.dumps(data, indent=2, ensure_ascii=False)
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
-def convert(input_path: str, output_path: str | None = None):
+def convert(input_path: str, output_path: str | None = None, fmt: str = "freeplane"):
     """Run the full conversion pipeline."""
     input_p = Path(input_path)
 
@@ -795,7 +994,10 @@ def convert(input_path: str, output_path: str | None = None):
 
     # Determine output path
     if output_path is None:
-        output_path = str(content_path.parent / f"{map_name}.mm")
+        if fmt == "json":
+            output_path = str(content_path.parent / f"{map_name}.mindmap.json")
+        else:
+            output_path = str(content_path.parent / f"{map_name}.mm")
 
     print(f"Parsing {content_path}...")
     nodes, connections, bg_color = parse_mimind(str(content_path))
@@ -805,37 +1007,49 @@ def convert(input_path: str, output_path: str | None = None):
     parent_child = [c for c in connections if not c.is_cross_link]
     print(f"  Parent-child: {len(parent_child)}, Cross-links: {len(cross_links)}")
 
-    print("Building tree...")
-    root = build_tree(nodes, connections, map_name)
+    if fmt == "json":
+        print("Generating JSON...")
+        output = generate_json(nodes, connections, bg_color, map_name)
+    else:
+        print("Building tree...")
+        root = build_tree(nodes, connections, map_name)
 
-    def count_nodes(n: MiMindNode) -> int:
-        return 1 + sum(count_nodes(c) for c in n.children)
+        def count_nodes(n: MiMindNode) -> int:
+            return 1 + sum(count_nodes(c) for c in n.children)
 
-    total = count_nodes(root)
-    print(f"  Tree has {total} nodes (including synthetic root)")
+        total = count_nodes(root)
+        print(f"  Tree has {total} nodes (including synthetic root)")
 
-    print("Generating Freeplane XML...")
-    xml_out = generate_freeplane(root, bg_color)
+        print("Generating Freeplane XML...")
+        output = generate_freeplane(root, bg_color)
 
-    # Validate output is well-formed XML
-    try:
-        ET.fromstring(xml_out)
-    except ET.ParseError as e:
-        print(f"Warning: Output XML validation failed: {e}", file=sys.stderr)
+        # Validate output is well-formed XML
+        try:
+            ET.fromstring(output)
+        except ET.ParseError as e:
+            print(f"Warning: Output XML validation failed: {e}", file=sys.stderr)
 
     with open(output_path, "w", encoding="utf-8") as f:
-        f.write(xml_out)
+        f.write(output)
 
     print(f"Written to {output_path}")
-    print(f"  Output size: {len(xml_out):,} bytes")
+    print(f"  Output size: {len(output):,} bytes")
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Convert miMind XML to Freeplane .mm format")
+    parser = argparse.ArgumentParser(
+        description="Convert miMind XML to Freeplane .mm or JSON format"
+    )
     parser.add_argument("input", help="Path to Content.xml or directory containing it")
-    parser.add_argument("-o", "--output", help="Output .mm file path (default: auto)")
+    parser.add_argument("-o", "--output", help="Output file path (default: auto)")
+    parser.add_argument(
+        "--format",
+        choices=["freeplane", "json"],
+        default="freeplane",
+        help="Output format (default: freeplane)",
+    )
     args = parser.parse_args()
-    convert(args.input, args.output)
+    convert(args.input, args.output, args.format)
 
 
 if __name__ == "__main__":
