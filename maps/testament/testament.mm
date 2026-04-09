@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="freeplane 1.12.1">
   <node ID="ID_root" TEXT="testament">
-    <node ID="ID_348068464" TEXT="Lord God" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="179 px" VSHIFT_QUANTITY="-2414 px" MIN_WIDTH="374" MAX_WIDTH="374">
+    <node ID="ID_348068464" TEXT="Lord God" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="350 px" VSHIFT_QUANTITY="-1608 px" MIN_WIDTH="374" MAX_WIDTH="374">
       <font NAME="LiberationSans" SIZE="74" BOLD="true"/>
-      <node ID="ID_351582192" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="879 px" VSHIFT_QUANTITY="408 px" MIN_WIDTH="665" MAX_WIDTH="665">
+      <node ID="ID_351582192" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="879 px" VSHIFT_QUANTITY="408 px" MIN_WIDTH="665" MAX_WIDTH="665">
         <font NAME="LiberationSans" SIZE="59" BOLD="true"/>
         <edge COLOR="#30b082" WIDTH="6"/>
         <richcontent TYPE="NODE"><html><head/><body>
           <p><span style="font-family: LiberationSans; font-size: 59pt; color: #ffffff; font-weight: bold">commanded the man</span></p>
           <p><span style="font-family: LiberationSans; font-size: 59pt; color: #ffffff; font-weight: bold; font-style: italic">Genesis 2:16</span></p>
         </body></html></richcontent>
-        <node ID="ID_351608576" TEXT="“You are free to eat from any tree in the garden; but you must not eat from&quot;" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="97 px" VSHIFT_QUANTITY="332 px" MIN_WIDTH="791" MAX_WIDTH="791">
+        <node ID="ID_351608576" TEXT="“You are free to eat from any tree in the garden; but you must not eat from&quot;" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="97 px" VSHIFT_QUANTITY="332 px" MIN_WIDTH="791" MAX_WIDTH="791">
           <font NAME="LiberationSans" SIZE="55" BOLD="true" ITALIC="true"/>
           <edge COLOR="#e24271" WIDTH="6"/>
           <arrowlink DESTINATION="ID_351887472" COLOR="#e24271" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-          <node ID="ID_351674920" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="746 px" VSHIFT_QUANTITY="321 px" MIN_WIDTH="445" MAX_WIDTH="445">
+          <node ID="ID_351674920" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="746 px" VSHIFT_QUANTITY="321 px" MIN_WIDTH="445" MAX_WIDTH="445">
             <font NAME="LiberationSans" SIZE="63" BOLD="true"/>
             <edge COLOR="#e24271" WIDTH="6"/>
             <richcontent TYPE="NODE"><html><head/><body>
               <p><span style="font-family: LiberationSans; font-size: 63pt; color: #ffffff; font-weight: bold">Because </span></p>
               <p><span style="font-family: LiberationSans; font-size: 63pt; color: #ffffff; font-weight: bold; font-style: italic">Genesis 2:17</span></p>
             </body></html></richcontent>
-            <node ID="ID_351729144" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="610 px" VSHIFT_QUANTITY="-362 px" MIN_WIDTH="941" MAX_WIDTH="941">
+            <node ID="ID_351729144" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="610 px" VSHIFT_QUANTITY="-362 px" MIN_WIDTH="941" MAX_WIDTH="941">
               <font NAME="LiberationSans" SIZE="33" BOLD="true"/>
               <edge COLOR="#e24271" WIDTH="6"/>
               <richcontent TYPE="NODE"><html><head/><body>
@@ -44,7 +44,7 @@
         </node>
       </node>
     </node>
-    <node ID="ID_351323192" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="10 px" VSHIFT_QUANTITY="-285 px" MIN_WIDTH="417" MAX_WIDTH="417">
+    <node ID="ID_351323192" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="180 px" VSHIFT_QUANTITY="521 px" MIN_WIDTH="417" MAX_WIDTH="417">
       <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
       <richcontent TYPE="NODE"><html><head/><body>
         <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-weight: bold">Adam &amp; Eve</span></p>
@@ -63,7 +63,7 @@
         <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">Then they have children </span></p>
       </body></html></richcontent>
       <arrowlink DESTINATION="ID_351496832" COLOR="#000000" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-      <node ID="ID_351759288" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="645 px" VSHIFT_QUANTITY="-34 px" MIN_WIDTH="470" MAX_WIDTH="470">
+      <node ID="ID_351759288" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="645 px" VSHIFT_QUANTITY="-34 px" MIN_WIDTH="470" MAX_WIDTH="470">
         <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
         <edge COLOR="#d07021" WIDTH="4"/>
         <richcontent TYPE="NODE"><html><head/><body>
@@ -81,7 +81,7 @@
           <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">Taking life and death into our own hands</span></p>
           <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">Like Cain did. Forgetting our place.</span></p>
         </body></html></richcontent>
-        <node ID="ID_315230184" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="631 px" VSHIFT_QUANTITY="41 px" MIN_WIDTH="455" MAX_WIDTH="455">
+        <node ID="ID_315230184" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="631 px" VSHIFT_QUANTITY="41 px" MIN_WIDTH="455" MAX_WIDTH="455">
           <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
           <edge COLOR="#e5a4a0" WIDTH="4"/>
           <richcontent TYPE="NODE"><html><head/><body>
@@ -96,7 +96,7 @@
             <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">the name of his son, Enoch."</span></p>
             <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-style: italic">Genesis 4:17</span><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff"> </span></p>
           </body></html></richcontent>
-          <node ID="ID_351943272" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="579 px" VSHIFT_QUANTITY="-25 px" MIN_WIDTH="418" MAX_WIDTH="418">
+          <node ID="ID_351943272" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="579 px" VSHIFT_QUANTITY="-25 px" MIN_WIDTH="418" MAX_WIDTH="418">
             <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
             <edge COLOR="#cc9d44" WIDTH="4"/>
             <richcontent TYPE="NODE"><html><head/><body>
@@ -113,7 +113,7 @@
               <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">Cain names a city after him), </span></p>
               <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">and Irad is what the city produces</span></p>
             </body></html></richcontent>
-            <node ID="ID_352014856" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="601 px" VSHIFT_QUANTITY="305 px" MIN_WIDTH="600" MAX_WIDTH="600">
+            <node ID="ID_352014856" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="601 px" VSHIFT_QUANTITY="305 px" MIN_WIDTH="600" MAX_WIDTH="600">
               <font NAME="LiberationSans" SIZE="24" BOLD="true"/>
               <edge COLOR="#d07021" WIDTH="4"/>
               <richcontent TYPE="NODE"><html><head/><body>
@@ -144,7 +144,7 @@
                 <p><span style="font-family: LiberationSans; font-size: 24pt; color: #ffffff; font-style: italic">The sac</span><span style="font-family: LiberationSans; font-size: 24pt; color: #ffffff; font-weight: bold; font-style: italic">red now means whatever </span></p>
                 <p><span style="font-family: LiberationSans; font-size: 24pt; color: #ffffff; font-weight: bold; font-style: italic">the structure needs it to mean.</span></p>
               </body></html></richcontent>
-              <node ID="ID_352075296" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="15 px" VSHIFT_QUANTITY="974 px" MIN_WIDTH="1035" MAX_WIDTH="1035">
+              <node ID="ID_352075296" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="15 px" VSHIFT_QUANTITY="974 px" MIN_WIDTH="1035" MAX_WIDTH="1035">
                 <font NAME="LiberationSans" SIZE="26" BOLD="true"/>
                 <edge COLOR="#cd3e24" WIDTH="4"/>
                 <richcontent TYPE="NODE"><html><head/><body>
@@ -159,7 +159,7 @@
                   <p>&#160;</p>
                   <p><span style="font-family: LiberationSans; font-size: 26pt; color: #ffffff; font-style: italic">"Demanded of God" — שָׁאַל (to ask/demand) + אֵל, compare Samuel/Shemu'el</span></p>
                 </body></html></richcontent>
-                <node ID="ID_352132520" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="1052 px" VSHIFT_QUANTITY="3 px" MIN_WIDTH="990" MAX_WIDTH="990">
+                <node ID="ID_352132520" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="1052 px" VSHIFT_QUANTITY="3 px" MIN_WIDTH="990" MAX_WIDTH="990">
                   <font NAME="LiberationSans" SIZE="24" BOLD="true"/>
                   <edge COLOR="#c4752d" WIDTH="4"/>
                   <richcontent TYPE="NODE"><html><head/><body>
@@ -182,7 +182,7 @@
           </node>
         </node>
       </node>
-      <node ID="ID_351812520" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="720 px" VSHIFT_QUANTITY="-84 px" MIN_WIDTH="333" MAX_WIDTH="333">
+      <node ID="ID_351812520" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="720 px" VSHIFT_QUANTITY="-84 px" MIN_WIDTH="333" MAX_WIDTH="333">
         <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
         <edge COLOR="#cccace" WIDTH="4"/>
         <richcontent TYPE="NODE"><html><head/><body>
@@ -199,7 +199,7 @@
           <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">in perfect harmony with God</span></p>
         </body></html></richcontent>
       </node>
-      <node ID="ID_351821272" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="1202 px" VSHIFT_QUANTITY="542 px" MIN_WIDTH="219" MAX_WIDTH="219">
+      <node ID="ID_351821272" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="1202 px" VSHIFT_QUANTITY="542 px" MIN_WIDTH="219" MAX_WIDTH="219">
         <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
         <edge COLOR="#cecf4d" WIDTH="4"/>
         <richcontent TYPE="NODE"><html><head/><body>
@@ -214,7 +214,7 @@
           <p>&#160;</p>
           <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">Lived 912 years </span></p>
         </body></html></richcontent>
-        <node ID="ID_352207208" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="289 px" VSHIFT_QUANTITY="592 px" MIN_WIDTH="797" MAX_WIDTH="797">
+        <node ID="ID_352207208" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="289 px" VSHIFT_QUANTITY="592 px" MIN_WIDTH="797" MAX_WIDTH="797">
           <font NAME="LiberationSans" SIZE="30" BOLD="true"/>
           <edge COLOR="#789dab" WIDTH="4"/>
           <richcontent TYPE="NODE"><html><head/><body>
@@ -234,7 +234,7 @@
             <p><span style="font-family: LiberationSans; font-size: 25pt; color: #ffffff; font-style: italic">At tha</span><span style="font-family: LiberationSans; font-size: 25pt; color: #ffffff; font-weight: bold; font-style: italic">t time people began to call on the name of the Lord."</span></p>
             <p><span style="font-family: LiberationSans; font-size: 25pt; color: #ffffff; font-weight: bold; font-style: italic">Gene</span><span style="font-family: LiberationSans; font-size: 25pt; color: #ffffff; font-style: italic">sis 4:26</span></p>
           </body></html></richcontent>
-          <node ID="ID_352221440" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="298 px" VSHIFT_QUANTITY="649 px" MIN_WIDTH="199" MAX_WIDTH="199">
+          <node ID="ID_352221440" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="298 px" VSHIFT_QUANTITY="649 px" MIN_WIDTH="199" MAX_WIDTH="199">
             <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
             <edge COLOR="#a3dd8a" WIDTH="4"/>
             <richcontent TYPE="NODE"><html><head/><body>
@@ -247,7 +247,7 @@
               <p>&#160;</p>
               <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">Lived 910 years </span></p>
             </body></html></richcontent>
-            <node ID="ID_352256768" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="5 px" VSHIFT_QUANTITY="476 px" MIN_WIDTH="209" MAX_WIDTH="209">
+            <node ID="ID_352256768" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="5 px" VSHIFT_QUANTITY="476 px" MIN_WIDTH="209" MAX_WIDTH="209">
               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
               <edge COLOR="#8798e3" WIDTH="4"/>
               <richcontent TYPE="NODE"><html><head/><body>
@@ -257,7 +257,7 @@
                 <p>&#160;</p>
                 <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">Lived 895</span></p>
               </body></html></richcontent>
-              <node ID="ID_352305512" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="15 px" VSHIFT_QUANTITY="362 px" MIN_WIDTH="191" MAX_WIDTH="191">
+              <node ID="ID_352305512" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="15 px" VSHIFT_QUANTITY="362 px" MIN_WIDTH="191" MAX_WIDTH="191">
                 <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                 <edge COLOR="#e0ab64" WIDTH="4"/>
                 <richcontent TYPE="NODE"><html><head/><body>
@@ -267,7 +267,7 @@
                   <p>&#160;</p>
                   <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">Lived 962 years</span></p>
                 </body></html></richcontent>
-                <node ID="ID_352341384" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="47 px" VSHIFT_QUANTITY="335 px" MIN_WIDTH="279" MAX_WIDTH="279">
+                <node ID="ID_352341384" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="47 px" VSHIFT_QUANTITY="335 px" MIN_WIDTH="279" MAX_WIDTH="279">
                   <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                   <edge COLOR="#ae5077" WIDTH="4"/>
                   <richcontent TYPE="NODE"><html><head/><body>
@@ -280,7 +280,7 @@
                     <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">he was no more, for</span></p>
                     <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">God took him</span></p>
                   </body></html></richcontent>
-                  <node ID="ID_352378016" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="34 px" VSHIFT_QUANTITY="504 px" MIN_WIDTH="338" MAX_WIDTH="338">
+                  <node ID="ID_352378016" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="34 px" VSHIFT_QUANTITY="504 px" MIN_WIDTH="338" MAX_WIDTH="338">
                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                     <edge COLOR="#4e615c" WIDTH="4"/>
                     <richcontent TYPE="NODE"><html><head/><body>
@@ -294,7 +294,7 @@
                       <p>&#160;</p>
                       <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">He dies the year of the flood </span></p>
                     </body></html></richcontent>
-                    <node ID="ID_352427232" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="70 px" VSHIFT_QUANTITY="462 px" MIN_WIDTH="485" MAX_WIDTH="485">
+                    <node ID="ID_352427232" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="70 px" VSHIFT_QUANTITY="462 px" MIN_WIDTH="485" MAX_WIDTH="485">
                       <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                       <edge COLOR="#cecf4d" WIDTH="4"/>
                       <richcontent TYPE="NODE"><html><head/><body>
@@ -310,7 +310,7 @@
                         <p>&#160;</p>
                         <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-style: italic">He dies 5 years before the flood</span></p>
                       </body></html></richcontent>
-                      <node ID="ID_352464544" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="30 px" VSHIFT_QUANTITY="588 px" MIN_WIDTH="590" MAX_WIDTH="590">
+                      <node ID="ID_352464544" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="30 px" VSHIFT_QUANTITY="588 px" MIN_WIDTH="590" MAX_WIDTH="590">
                         <font NAME="LiberationSans" SIZE="40" BOLD="true"/>
                         <edge COLOR="#789dab" WIDTH="4"/>
                         <richcontent TYPE="NODE"><html><head/><body>
@@ -348,7 +348,7 @@
                           <p><span style="font-family: LiberationSans; font-size: 20pt; color: #ffffff; font-style: italic">it is killed on the cross. The cross is a universal </span></p>
                           <p><span style="font-family: LiberationSans; font-size: 20pt; color: #ffffff; font-style: italic">symbol for division.</span></p>
                         </body></html></richcontent>
-                        <node ID="ID_352560936" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="828 px" VSHIFT_QUANTITY="238 px" MIN_WIDTH="486" MAX_WIDTH="486">
+                        <node ID="ID_352560936" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="828 px" VSHIFT_QUANTITY="238 px" MIN_WIDTH="486" MAX_WIDTH="486">
                           <font NAME="LiberationSans" SIZE="38" BOLD="true"/>
                           <edge COLOR="#a3dd8a" WIDTH="4"/>
                           <richcontent TYPE="NODE"><html><head/><body>
@@ -374,106 +374,106 @@
                             <p>&#160;</p>
                             <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-style: italic">Lived 600 years</span></p>
                           </body></html></richcontent>
-                          <node ID="ID_317917456" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="226 px" VSHIFT_QUANTITY="-293 px" MIN_WIDTH="77" MAX_WIDTH="77">
+                          <node ID="ID_317917456" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="226 px" VSHIFT_QUANTITY="-293 px" MIN_WIDTH="77" MAX_WIDTH="77">
                             <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                             <edge COLOR="#35e1c8" WIDTH="4"/>
                             <richcontent TYPE="NODE"><html><head/><body>
                               <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-weight: bold">Elam</span><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff"> </span></p>
                             </body></html></richcontent>
                           </node>
-                          <node ID="ID_318312576" TEXT="Asshur" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="32 px" VSHIFT_QUANTITY="-226 px" MIN_WIDTH="100" MAX_WIDTH="100">
+                          <node ID="ID_318312576" TEXT="Asshur" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="32 px" VSHIFT_QUANTITY="-226 px" MIN_WIDTH="100" MAX_WIDTH="100">
                             <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                             <edge COLOR="#35e1c8" WIDTH="4"/>
                           </node>
-                          <node ID="ID_230518792" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="719 px" VSHIFT_QUANTITY="952 px" MIN_WIDTH="243" MAX_WIDTH="243">
+                          <node ID="ID_230518792" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="719 px" VSHIFT_QUANTITY="952 px" MIN_WIDTH="243" MAX_WIDTH="243">
                             <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                             <edge COLOR="#35e1c8" WIDTH="4"/>
                             <richcontent TYPE="NODE"><html><head/><body>
                               <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-weight: bold">Arpachshad</span></p>
                               <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">Uncertain etymology </span></p>
                             </body></html></richcontent>
-                            <node ID="ID_229123880" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="411 px" VSHIFT_QUANTITY="-1 px" MIN_WIDTH="172" MAX_WIDTH="172">
+                            <node ID="ID_229123880" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="411 px" VSHIFT_QUANTITY="-1 px" MIN_WIDTH="172" MAX_WIDTH="172">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#8f6a3d" WIDTH="4"/>
                               <richcontent TYPE="NODE"><html><head/><body>
                                 <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-weight: bold">Shelah</span></p>
                                 <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"To send forth"</span></p>
                               </body></html></richcontent>
-                              <node ID="ID_230773504" TEXT="Eber" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="381 px" VSHIFT_QUANTITY="22 px" MIN_WIDTH="66" MAX_WIDTH="66">
+                              <node ID="ID_230773504" TEXT="Eber" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="381 px" VSHIFT_QUANTITY="22 px" MIN_WIDTH="66" MAX_WIDTH="66">
                                 <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                 <edge COLOR="#63c860" WIDTH="4"/>
-                                <node ID="ID_321056056" TEXT="Joktan" BACKGROUND_COLOR="#e8a9e8" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="11 px" VSHIFT_QUANTITY="-114 px" MIN_WIDTH="84" MAX_WIDTH="84">
+                                <node ID="ID_321056056" TEXT="Joktan" BACKGROUND_COLOR="#e8a9e8" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="11 px" VSHIFT_QUANTITY="-114 px" MIN_WIDTH="84" MAX_WIDTH="84">
                                   <font NAME="LiberationSans" SIZE="22"/>
                                   <edge COLOR="#34ae9c" WIDTH="4"/>
-                                  <node ID="ID_218233896" TEXT="Almodad" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="883 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="117" MAX_WIDTH="117">
+                                  <node ID="ID_218233896" TEXT="Almodad" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="883 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="117" MAX_WIDTH="117">
                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                     <edge COLOR="#c92fc9" WIDTH="4"/>
                                   </node>
-                                  <node ID="ID_326176144" TEXT="Sheleph" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="716 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="107" MAX_WIDTH="107">
+                                  <node ID="ID_326176144" TEXT="Sheleph" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="716 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="107" MAX_WIDTH="107">
                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                     <edge COLOR="#c92fc9" WIDTH="4"/>
                                   </node>
-                                  <node ID="ID_328861848" TEXT="Hazarmaveth" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="559 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="164" MAX_WIDTH="164">
+                                  <node ID="ID_328861848" TEXT="Hazarmaveth" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="559 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="164" MAX_WIDTH="164">
                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                     <edge COLOR="#c92fc9" WIDTH="4"/>
                                   </node>
-                                  <node ID="ID_353905184" TEXT="Jerah" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="345 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="77" MAX_WIDTH="77">
+                                  <node ID="ID_353905184" TEXT="Jerah" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="345 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="77" MAX_WIDTH="77">
                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                     <edge COLOR="#c92fc9" WIDTH="4"/>
                                   </node>
-                                  <node ID="ID_353931568" TEXT="Hadoram" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="218 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="118" MAX_WIDTH="118">
+                                  <node ID="ID_353931568" TEXT="Hadoram" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="218 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="118" MAX_WIDTH="118">
                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                     <edge COLOR="#c92fc9" WIDTH="4"/>
                                   </node>
-                                  <node ID="ID_328626872" TEXT="Uzal" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="50 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="62" MAX_WIDTH="62">
+                                  <node ID="ID_328626872" TEXT="Uzal" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="50 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="62" MAX_WIDTH="62">
                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                     <edge COLOR="#c92fc9" WIDTH="4"/>
                                   </node>
-                                  <node ID="ID_326719992" TEXT="Diklah" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="62 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="85" MAX_WIDTH="85">
+                                  <node ID="ID_326719992" TEXT="Diklah" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="62 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="85" MAX_WIDTH="85">
                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                     <edge COLOR="#c92fc9" WIDTH="4"/>
                                   </node>
-                                  <node ID="ID_96483832" TEXT="Obal" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="198 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="66" MAX_WIDTH="66">
+                                  <node ID="ID_96483832" TEXT="Obal" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="198 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="66" MAX_WIDTH="66">
                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                     <edge COLOR="#c92fc9" WIDTH="4"/>
                                   </node>
-                                  <node ID="ID_319832560" TEXT="Abimael" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="314 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="107" MAX_WIDTH="107">
+                                  <node ID="ID_319832560" TEXT="Abimael" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="314 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="107" MAX_WIDTH="107">
                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                     <edge COLOR="#c92fc9" WIDTH="4"/>
                                   </node>
-                                  <node ID="ID_231805488" TEXT="Sheba" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="471 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="85" MAX_WIDTH="85">
+                                  <node ID="ID_231805488" TEXT="Sheba" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="471 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="85" MAX_WIDTH="85">
                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                     <edge COLOR="#c92fc9" WIDTH="4"/>
                                   </node>
-                                  <node ID="ID_226109824" TEXT="Ophir" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="607 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="77" MAX_WIDTH="77">
+                                  <node ID="ID_226109824" TEXT="Ophir" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="607 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="77" MAX_WIDTH="77">
                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                     <edge COLOR="#c92fc9" WIDTH="4"/>
                                   </node>
-                                  <node ID="ID_318102816" TEXT="Havilah" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="734 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="99" MAX_WIDTH="99">
+                                  <node ID="ID_318102816" TEXT="Havilah" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="734 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="99" MAX_WIDTH="99">
                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                     <edge COLOR="#c92fc9" WIDTH="4"/>
                                   </node>
-                                  <node ID="ID_315650264" TEXT="Jobab" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="883 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="84" MAX_WIDTH="84">
+                                  <node ID="ID_315650264" TEXT="Jobab" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="883 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="84" MAX_WIDTH="84">
                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                     <edge COLOR="#c92fc9" WIDTH="4"/>
                                   </node>
                                 </node>
-                                <node ID="ID_324066872" TEXT="Peleg" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="241 px" VSHIFT_QUANTITY="2 px" MIN_WIDTH="77" MAX_WIDTH="77">
+                                <node ID="ID_324066872" TEXT="Peleg" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="241 px" VSHIFT_QUANTITY="2 px" MIN_WIDTH="77" MAX_WIDTH="77">
                                   <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                   <edge COLOR="#34ae9c" WIDTH="4"/>
-                                  <node ID="ID_233796032" TEXT="Reu" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="194 px" VSHIFT_QUANTITY="-2 px" MIN_WIDTH="62" MAX_WIDTH="62">
+                                  <node ID="ID_233796032" TEXT="Reu" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="194 px" VSHIFT_QUANTITY="-2 px" MIN_WIDTH="62" MAX_WIDTH="62">
                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                     <edge COLOR="#cecf4d" WIDTH="4"/>
-                                    <node ID="ID_95034344" TEXT="Serug" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="162 px" VSHIFT_QUANTITY="0 px" MIN_WIDTH="81" MAX_WIDTH="81">
+                                    <node ID="ID_95034344" TEXT="Serug" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="162 px" VSHIFT_QUANTITY="0 px" MIN_WIDTH="81" MAX_WIDTH="81">
                                       <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                       <edge COLOR="#789dab" WIDTH="4"/>
-                                      <node ID="ID_232509792" TEXT="Nahor" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="177 px" VSHIFT_QUANTITY="0 px" MIN_WIDTH="83" MAX_WIDTH="83">
+                                      <node ID="ID_232509792" TEXT="Nahor" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="177 px" VSHIFT_QUANTITY="0 px" MIN_WIDTH="83" MAX_WIDTH="83">
                                         <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                         <edge COLOR="#a3dd8a" WIDTH="4"/>
-                                        <node ID="ID_230307192" TEXT="Terah" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="179 px" VSHIFT_QUANTITY="-2 px" MIN_WIDTH="77" MAX_WIDTH="77">
+                                        <node ID="ID_230307192" TEXT="Terah" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="179 px" VSHIFT_QUANTITY="-2 px" MIN_WIDTH="77" MAX_WIDTH="77">
                                           <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                           <edge COLOR="#8798e3" WIDTH="4"/>
-                                          <node ID="ID_231528712" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="820 px" VSHIFT_QUANTITY="-249 px" MIN_WIDTH="501" MAX_WIDTH="501">
+                                          <node ID="ID_231528712" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="820 px" VSHIFT_QUANTITY="-249 px" MIN_WIDTH="501" MAX_WIDTH="501">
                                             <font NAME="LiberationSans" SIZE="37" BOLD="true"/>
                                             <edge COLOR="#e0ab64" WIDTH="4"/>
                                             <richcontent TYPE="NODE"><html><head/><body>
@@ -488,7 +488,7 @@
                                               <p>&#160;</p>
                                               <p><span style="font-family: LiberationSans; font-size: 37pt; color: #ffffff">Lives 175 years</span></p>
                                             </body></html></richcontent>
-                                            <node ID="ID_229847800" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="640 px" VSHIFT_QUANTITY="207 px" MIN_WIDTH="184" MAX_WIDTH="184">
+                                            <node ID="ID_229847800" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="640 px" VSHIFT_QUANTITY="207 px" MIN_WIDTH="184" MAX_WIDTH="184">
                                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                               <edge COLOR="#7c9a1f" WIDTH="4"/>
                                               <richcontent TYPE="NODE"><html><head/><body>
@@ -497,7 +497,7 @@
                                                 <p>&#160;</p>
                                                 <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">Abraham's wife</span></p>
                                               </body></html></richcontent>
-                                              <node ID="ID_322833408" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="376 px" VSHIFT_QUANTITY="-121 px" MIN_WIDTH="476" MAX_WIDTH="476">
+                                              <node ID="ID_322833408" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="376 px" VSHIFT_QUANTITY="-121 px" MIN_WIDTH="476" MAX_WIDTH="476">
                                                 <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                 <edge COLOR="#ab8d31" WIDTH="4"/>
                                                 <richcontent TYPE="NODE"><html><head/><body>
@@ -516,7 +516,7 @@
                                                 <arrowlink DESTINATION="ID_356668776" COLOR="#e24271" STARTARROW="NONE" ENDARROW="DEFAULT"/>
                                               </node>
                                             </node>
-                                            <node ID="ID_231058736" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="695 px" VSHIFT_QUANTITY="-314 px" MIN_WIDTH="259" MAX_WIDTH="259">
+                                            <node ID="ID_231058736" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="695 px" VSHIFT_QUANTITY="-314 px" MIN_WIDTH="259" MAX_WIDTH="259">
                                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                               <edge COLOR="#7c9a1f" WIDTH="4"/>
                                               <richcontent TYPE="NODE"><html><head/><body>
@@ -531,64 +531,64 @@
                                                 <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">God hears her crying </span></p>
                                                 <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">in the wilderness </span></p>
                                               </body></html></richcontent>
-                                              <node ID="ID_323517240" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="56 px" VSHIFT_QUANTITY="-175 px" MIN_WIDTH="145" MAX_WIDTH="145">
+                                              <node ID="ID_323517240" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="56 px" VSHIFT_QUANTITY="-175 px" MIN_WIDTH="145" MAX_WIDTH="145">
                                                 <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                 <edge COLOR="#ab8d31" WIDTH="4"/>
                                                 <richcontent TYPE="NODE"><html><head/><body>
                                                   <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-weight: bold">Ishmael</span></p>
                                                   <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"God hears"</span></p>
                                                 </body></html></richcontent>
-                                                <node ID="ID_325601176" TEXT="Nebaioth" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="746 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="117" MAX_WIDTH="117">
+                                                <node ID="ID_325601176" TEXT="Nebaioth" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="746 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="117" MAX_WIDTH="117">
                                                   <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                   <edge COLOR="#2fd8a7" WIDTH="4"/>
                                                 </node>
-                                                <node ID="ID_325216504" TEXT="Kedar" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="586 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="81" MAX_WIDTH="81">
+                                                <node ID="ID_325216504" TEXT="Kedar" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="586 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="81" MAX_WIDTH="81">
                                                   <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                   <edge COLOR="#2fd8a7" WIDTH="4"/>
                                                 </node>
-                                                <node ID="ID_326464552" TEXT="Adbeel" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="458 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="94" MAX_WIDTH="94">
+                                                <node ID="ID_326464552" TEXT="Adbeel" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="458 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="94" MAX_WIDTH="94">
                                                   <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                   <edge COLOR="#2fd8a7" WIDTH="4"/>
                                                 </node>
-                                                <node ID="ID_326902616" TEXT="Mibsam" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="320 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="103" MAX_WIDTH="103">
+                                                <node ID="ID_326902616" TEXT="Mibsam" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="320 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="103" MAX_WIDTH="103">
                                                   <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                   <edge COLOR="#2fd8a7" WIDTH="4"/>
                                                 </node>
-                                                <node ID="ID_328151184" TEXT="Mishma" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="172 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="103" MAX_WIDTH="103">
+                                                <node ID="ID_328151184" TEXT="Mishma" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="172 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="103" MAX_WIDTH="103">
                                                   <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                   <edge COLOR="#2fd8a7" WIDTH="4"/>
                                                 </node>
-                                                <node ID="ID_328364624" TEXT="Dumah" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="25 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="95" MAX_WIDTH="95">
+                                                <node ID="ID_328364624" TEXT="Dumah" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="25 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="95" MAX_WIDTH="95">
                                                   <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                   <edge COLOR="#2fd8a7" WIDTH="4"/>
                                                 </node>
-                                                <node ID="ID_328934976" TEXT="Massa" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="116 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="87" MAX_WIDTH="87">
+                                                <node ID="ID_328934976" TEXT="Massa" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="116 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="87" MAX_WIDTH="87">
                                                   <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                   <edge COLOR="#2fd8a7" WIDTH="4"/>
                                                 </node>
-                                                <node ID="ID_229875768" TEXT="Hadad" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="250 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="87" MAX_WIDTH="87">
+                                                <node ID="ID_229875768" TEXT="Hadad" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="250 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="87" MAX_WIDTH="87">
                                                   <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                   <edge COLOR="#2fd8a7" WIDTH="4"/>
                                                 </node>
-                                                <node ID="ID_227924696" TEXT="Tema" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="384 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="74" MAX_WIDTH="74">
+                                                <node ID="ID_227924696" TEXT="Tema" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="384 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="74" MAX_WIDTH="74">
                                                   <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                   <edge COLOR="#2fd8a7" WIDTH="4"/>
                                                 </node>
-                                                <node ID="ID_320002872" TEXT="Jetur" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="506 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="72" MAX_WIDTH="72">
+                                                <node ID="ID_320002872" TEXT="Jetur" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="506 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="72" MAX_WIDTH="72">
                                                   <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                   <edge COLOR="#2fd8a7" WIDTH="4"/>
                                                 </node>
-                                                <node ID="ID_327236800" TEXT="Naphish" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="623 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="109" MAX_WIDTH="109">
+                                                <node ID="ID_327236800" TEXT="Naphish" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="623 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="109" MAX_WIDTH="109">
                                                   <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                   <edge COLOR="#2fd8a7" WIDTH="4"/>
                                                 </node>
-                                                <node ID="ID_328104928" TEXT="Kedemah" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="774 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="122" MAX_WIDTH="122">
+                                                <node ID="ID_328104928" TEXT="Kedemah" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="774 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="122" MAX_WIDTH="122">
                                                   <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                   <edge COLOR="#2fd8a7" WIDTH="4"/>
                                                 </node>
                                               </node>
                                             </node>
-                                            <node ID="ID_321989768" BACKGROUND_COLOR="#a9decb" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="544 px" VSHIFT_QUANTITY="-297 px" MIN_WIDTH="389" MAX_WIDTH="389">
+                                            <node ID="ID_321989768" BACKGROUND_COLOR="#a9decb" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="544 px" VSHIFT_QUANTITY="-297 px" MIN_WIDTH="389" MAX_WIDTH="389">
                                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                               <edge COLOR="#7c9a1f" WIDTH="4"/>
                                               <richcontent TYPE="NODE"><html><head/><body>
@@ -599,19 +599,19 @@
                                                 <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">After Sarah dies, Abraham fathers</span></p>
                                                 <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">several sons with Keturah</span></p>
                                               </body></html></richcontent>
-                                              <node ID="ID_322992440" TEXT="Zimran" BACKGROUND_COLOR="#f3b1c4" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="280 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="93" MAX_WIDTH="93">
+                                              <node ID="ID_322992440" TEXT="Zimran" BACKGROUND_COLOR="#f3b1c4" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="280 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="93" MAX_WIDTH="93">
                                                 <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                 <edge COLOR="#30b082" WIDTH="4"/>
                                               </node>
-                                              <node ID="ID_228355296" TEXT="Jokshan" BACKGROUND_COLOR="#f3b1c4" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="136 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="111" MAX_WIDTH="111">
+                                              <node ID="ID_228355296" TEXT="Jokshan" BACKGROUND_COLOR="#f3b1c4" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="136 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="111" MAX_WIDTH="111">
                                                 <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                 <edge COLOR="#30b082" WIDTH="4"/>
                                               </node>
-                                              <node ID="ID_325471776" TEXT="Medan" BACKGROUND_COLOR="#f3b1c4" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="25 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="90" MAX_WIDTH="90">
+                                              <node ID="ID_325471776" TEXT="Medan" BACKGROUND_COLOR="#f3b1c4" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="25 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="90" MAX_WIDTH="90">
                                                 <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                 <edge COLOR="#30b082" WIDTH="4"/>
                                               </node>
-                                              <node ID="ID_228820344" BACKGROUND_COLOR="#f3b1c4" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="165 px" VSHIFT_QUANTITY="-243 px" MIN_WIDTH="227" MAX_WIDTH="227">
+                                              <node ID="ID_228820344" BACKGROUND_COLOR="#f3b1c4" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="165 px" VSHIFT_QUANTITY="-243 px" MIN_WIDTH="227" MAX_WIDTH="227">
                                                 <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                 <edge COLOR="#30b082" WIDTH="4"/>
                                                 <richcontent TYPE="NODE"><html><head/><body>
@@ -621,71 +621,71 @@
                                                   <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-style: italic">and meets his wife</span></p>
                                                 </body></html></richcontent>
                                               </node>
-                                              <node ID="ID_97581840" TEXT="Ishbak" BACKGROUND_COLOR="#f3b1c4" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="442 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="90" MAX_WIDTH="90">
+                                              <node ID="ID_97581840" TEXT="Ishbak" BACKGROUND_COLOR="#f3b1c4" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="442 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="90" MAX_WIDTH="90">
                                                 <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                 <edge COLOR="#30b082" WIDTH="4"/>
                                               </node>
-                                              <node ID="ID_355925776" TEXT="Shuah" BACKGROUND_COLOR="#f3b1c4" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="581 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="87" MAX_WIDTH="87">
+                                              <node ID="ID_355925776" TEXT="Shuah" BACKGROUND_COLOR="#f3b1c4" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="581 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="87" MAX_WIDTH="87">
                                                 <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                 <edge COLOR="#30b082" WIDTH="4"/>
                                               </node>
                                             </node>
                                           </node>
-                                          <node ID="ID_232290936" TEXT="Nahor" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="330 px" VSHIFT_QUANTITY="220 px" MIN_WIDTH="83" MAX_WIDTH="83">
+                                          <node ID="ID_232290936" TEXT="Nahor" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="330 px" VSHIFT_QUANTITY="220 px" MIN_WIDTH="83" MAX_WIDTH="83">
                                             <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                             <edge COLOR="#e0ab64" WIDTH="4"/>
                                             <arrowlink DESTINATION="ID_322117712" COLOR="#e0ab64" MIDDLE_LABEL="Fathers her Sons" STARTARROW="NONE" ENDARROW="DEFAULT"/>
                                           </node>
-                                          <node ID="ID_229550920" TEXT="Haran" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="4 px" VSHIFT_QUANTITY="213 px" MIN_WIDTH="81" MAX_WIDTH="81">
+                                          <node ID="ID_229550920" TEXT="Haran" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="4 px" VSHIFT_QUANTITY="213 px" MIN_WIDTH="81" MAX_WIDTH="81">
                                             <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                             <edge COLOR="#e0ab64" WIDTH="4"/>
-                                            <node ID="ID_322117712" BACKGROUND_COLOR="#addcc1" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="123 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="90" MAX_WIDTH="90">
+                                            <node ID="ID_322117712" BACKGROUND_COLOR="#addcc1" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="123 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="90" MAX_WIDTH="90">
                                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                               <edge COLOR="#e68447" WIDTH="4"/>
                                               <richcontent TYPE="NODE"><html><head/><body>
                                                 <p>Milcah</p>
                                                 <p>F</p>
                                               </body></html></richcontent>
-                                              <node ID="ID_315874080" TEXT="Uz" BACKGROUND_COLOR="#a3b9a7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="4981 px" VSHIFT_QUANTITY="176 px" MIN_WIDTH="62" MAX_WIDTH="62">
+                                              <node ID="ID_315874080" TEXT="Uz" BACKGROUND_COLOR="#a3b9a7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="4981 px" VSHIFT_QUANTITY="176 px" MIN_WIDTH="62" MAX_WIDTH="62">
                                                 <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                 <edge COLOR="#39ac69" WIDTH="4"/>
                                               </node>
-                                              <node ID="ID_227461360" TEXT="Buz" BACKGROUND_COLOR="#a3b9a7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="4869 px" VSHIFT_QUANTITY="176 px" MIN_WIDTH="62" MAX_WIDTH="62">
+                                              <node ID="ID_227461360" TEXT="Buz" BACKGROUND_COLOR="#a3b9a7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="4869 px" VSHIFT_QUANTITY="176 px" MIN_WIDTH="62" MAX_WIDTH="62">
                                                 <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                 <edge COLOR="#39ac69" WIDTH="4"/>
                                               </node>
-                                              <node ID="ID_227091920" TEXT="Kemuel" BACKGROUND_COLOR="#a3b9a7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="4757 px" VSHIFT_QUANTITY="176 px" MIN_WIDTH="100" MAX_WIDTH="100">
+                                              <node ID="ID_227091920" TEXT="Kemuel" BACKGROUND_COLOR="#a3b9a7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="4757 px" VSHIFT_QUANTITY="176 px" MIN_WIDTH="100" MAX_WIDTH="100">
                                                 <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                 <edge COLOR="#39ac69" WIDTH="4"/>
                                               </node>
-                                              <node ID="ID_231210080" TEXT="Chesed" BACKGROUND_COLOR="#a3b9a7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="4607 px" VSHIFT_QUANTITY="176 px" MIN_WIDTH="100" MAX_WIDTH="100">
+                                              <node ID="ID_231210080" TEXT="Chesed" BACKGROUND_COLOR="#a3b9a7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="4607 px" VSHIFT_QUANTITY="176 px" MIN_WIDTH="100" MAX_WIDTH="100">
                                                 <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                 <edge COLOR="#39ac69" WIDTH="4"/>
                                               </node>
-                                              <node ID="ID_356418864" TEXT="Hazo" BACKGROUND_COLOR="#a3b9a7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="4457 px" VSHIFT_QUANTITY="176 px" MIN_WIDTH="70" MAX_WIDTH="70">
+                                              <node ID="ID_356418864" TEXT="Hazo" BACKGROUND_COLOR="#a3b9a7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="4457 px" VSHIFT_QUANTITY="176 px" MIN_WIDTH="70" MAX_WIDTH="70">
                                                 <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                 <edge COLOR="#39ac69" WIDTH="4"/>
                                               </node>
-                                              <node ID="ID_324277176" TEXT="Pildash" BACKGROUND_COLOR="#a3b9a7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="4336 px" VSHIFT_QUANTITY="176 px" MIN_WIDTH="99" MAX_WIDTH="99">
+                                              <node ID="ID_324277176" TEXT="Pildash" BACKGROUND_COLOR="#a3b9a7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="4336 px" VSHIFT_QUANTITY="176 px" MIN_WIDTH="99" MAX_WIDTH="99">
                                                 <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                 <edge COLOR="#39ac69" WIDTH="4"/>
                                               </node>
-                                              <node ID="ID_324713232" TEXT="Jidlaph" BACKGROUND_COLOR="#a3b9a7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="4187 px" VSHIFT_QUANTITY="176 px" MIN_WIDTH="98" MAX_WIDTH="98">
+                                              <node ID="ID_324713232" TEXT="Jidlaph" BACKGROUND_COLOR="#a3b9a7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="4187 px" VSHIFT_QUANTITY="176 px" MIN_WIDTH="98" MAX_WIDTH="98">
                                                 <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                 <edge COLOR="#39ac69" WIDTH="4"/>
                                               </node>
-                                              <node ID="ID_326864656" TEXT="Jidlaph" BACKGROUND_COLOR="#a3b9a7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="4039 px" VSHIFT_QUANTITY="176 px" MIN_WIDTH="98" MAX_WIDTH="98">
+                                              <node ID="ID_326864656" TEXT="Jidlaph" BACKGROUND_COLOR="#a3b9a7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="4039 px" VSHIFT_QUANTITY="176 px" MIN_WIDTH="98" MAX_WIDTH="98">
                                                 <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                 <edge COLOR="#39ac69" WIDTH="4"/>
                                               </node>
-                                              <node ID="ID_326946512" TEXT="Bethuel" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="3891 px" VSHIFT_QUANTITY="3727 px" MIN_WIDTH="102" MAX_WIDTH="102">
+                                              <node ID="ID_326946512" TEXT="Bethuel" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="3891 px" VSHIFT_QUANTITY="3727 px" MIN_WIDTH="102" MAX_WIDTH="102">
                                                 <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                 <edge COLOR="#39ac69" WIDTH="4"/>
-                                                <node ID="ID_234397264" TEXT="Laban" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="6 px" VSHIFT_QUANTITY="140 px" MIN_WIDTH="84" MAX_WIDTH="84">
+                                                <node ID="ID_234397264" TEXT="Laban" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="6 px" VSHIFT_QUANTITY="140 px" MIN_WIDTH="84" MAX_WIDTH="84">
                                                   <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                   <edge COLOR="#e68447" WIDTH="4"/>
                                                 </node>
-                                                <node ID="ID_356668776" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="1589 px" VSHIFT_QUANTITY="-197 px" MIN_WIDTH="391" MAX_WIDTH="391">
+                                                <node ID="ID_356668776" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="1589 px" VSHIFT_QUANTITY="-197 px" MIN_WIDTH="391" MAX_WIDTH="391">
                                                   <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                   <edge COLOR="#e68447" WIDTH="4"/>
                                                   <richcontent TYPE="NODE"><html><head/><body>
@@ -702,32 +702,32 @@
                                                     <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-style: italic">elder shall serve the younger." </span></p>
                                                     <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-weight: bold; font-style: italic">(Genesis 25:23)</span></p>
                                                   </body></html></richcontent>
-                                                  <node ID="ID_321510480" TEXT="Esau" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="104 px" VSHIFT_QUANTITY="524 px" MIN_WIDTH="70" MAX_WIDTH="70">
+                                                  <node ID="ID_321510480" TEXT="Esau" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="104 px" VSHIFT_QUANTITY="524 px" MIN_WIDTH="70" MAX_WIDTH="70">
                                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                     <edge COLOR="#2fd8a7" WIDTH="4"/>
                                                     <arrowlink DESTINATION="ID_326826688" COLOR="#858088" MIDDLE_LABEL="Twins" STARTARROW="NONE" ENDARROW="DEFAULT"/>
-                                                    <node ID="ID_323496736" TEXT="Eliphaz" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="266 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="98" MAX_WIDTH="98">
+                                                    <node ID="ID_323496736" TEXT="Eliphaz" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="266 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="98" MAX_WIDTH="98">
                                                       <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                       <edge COLOR="#79997f" WIDTH="4"/>
                                                     </node>
-                                                    <node ID="ID_348447096" TEXT="Jeush" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="124 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="83" MAX_WIDTH="83">
+                                                    <node ID="ID_348447096" TEXT="Jeush" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="124 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="83" MAX_WIDTH="83">
                                                       <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                       <edge COLOR="#79997f" WIDTH="4"/>
                                                     </node>
-                                                    <node ID="ID_228775392" TEXT="Jalam" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="3 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="81" MAX_WIDTH="81">
+                                                    <node ID="ID_228775392" TEXT="Jalam" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="3 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="81" MAX_WIDTH="81">
                                                       <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                       <edge COLOR="#79997f" WIDTH="4"/>
                                                     </node>
-                                                    <node ID="ID_227292608" TEXT="Korah" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="131 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="83" MAX_WIDTH="83">
+                                                    <node ID="ID_227292608" TEXT="Korah" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="131 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="83" MAX_WIDTH="83">
                                                       <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                       <edge COLOR="#79997f" WIDTH="4"/>
                                                     </node>
-                                                    <node ID="ID_314909424" TEXT="Reuel" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="258 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="79" MAX_WIDTH="79">
+                                                    <node ID="ID_314909424" TEXT="Reuel" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="258 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="79" MAX_WIDTH="79">
                                                       <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                       <edge COLOR="#79997f" WIDTH="4"/>
                                                     </node>
                                                   </node>
-                                                  <node ID="ID_326826688" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="532 px" VSHIFT_QUANTITY="75 px" MIN_WIDTH="585" MAX_WIDTH="585">
+                                                  <node ID="ID_326826688" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="532 px" VSHIFT_QUANTITY="75 px" MIN_WIDTH="585" MAX_WIDTH="585">
                                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                     <edge COLOR="#2fd8a7" WIDTH="4"/>
                                                     <richcontent TYPE="NODE"><html><head/><body>
@@ -751,14 +751,14 @@
                                                       <p>&#160;</p>
                                                       <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-style: italic">Walks away with a permanent limp.</span></p>
                                                     </body></html></richcontent>
-                                                    <node ID="ID_315356344" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="2156 px" VSHIFT_QUANTITY="758 px" MIN_WIDTH="159" MAX_WIDTH="159">
+                                                    <node ID="ID_315356344" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="2156 px" VSHIFT_QUANTITY="758 px" MIN_WIDTH="159" MAX_WIDTH="159">
                                                       <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                       <edge COLOR="#79997f" WIDTH="4"/>
                                                       <richcontent TYPE="NODE"><html><head/><body>
                                                         <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-weight: bold">Leah</span><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff"> </span></p>
                                                         <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">Unloved Wife</span></p>
                                                       </body></html></richcontent>
-                                                      <node ID="ID_94116352" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="420 px" VSHIFT_QUANTITY="-5 px" MIN_WIDTH="148" MAX_WIDTH="148">
+                                                      <node ID="ID_94116352" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="420 px" VSHIFT_QUANTITY="-5 px" MIN_WIDTH="148" MAX_WIDTH="148">
                                                         <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                         <edge COLOR="#8c2189" WIDTH="4"/>
                                                         <richcontent TYPE="NODE"><html><head/><body>
@@ -766,7 +766,7 @@
                                                           <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"See, a son"</span></p>
                                                         </body></html></richcontent>
                                                       </node>
-                                                      <node ID="ID_92500496" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="136 px" VSHIFT_QUANTITY="180 px" MIN_WIDTH="102" MAX_WIDTH="102">
+                                                      <node ID="ID_92500496" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="136 px" VSHIFT_QUANTITY="180 px" MIN_WIDTH="102" MAX_WIDTH="102">
                                                         <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                         <edge COLOR="#8c2189" WIDTH="4"/>
                                                         <richcontent TYPE="NODE"><html><head/><body>
@@ -774,17 +774,17 @@
                                                           <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"Heard"</span></p>
                                                         </body></html></richcontent>
                                                       </node>
-                                                      <node ID="ID_316755704" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="14 px" VSHIFT_QUANTITY="-366 px" MIN_WIDTH="128" MAX_WIDTH="128">
+                                                      <node ID="ID_316755704" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="14 px" VSHIFT_QUANTITY="-366 px" MIN_WIDTH="128" MAX_WIDTH="128">
                                                         <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                         <edge COLOR="#8c2189" WIDTH="4"/>
                                                         <richcontent TYPE="NODE"><html><head/><body>
                                                           <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-weight: bold">Levi</span></p>
                                                           <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"Attached"</span></p>
                                                         </body></html></richcontent>
-                                                        <node ID="ID_343295408" TEXT="Kohath" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="164 px" VSHIFT_QUANTITY="-39 px" MIN_WIDTH="96" MAX_WIDTH="96">
+                                                        <node ID="ID_343295408" TEXT="Kohath" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="164 px" VSHIFT_QUANTITY="-39 px" MIN_WIDTH="96" MAX_WIDTH="96">
                                                           <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                           <edge COLOR="#e2bc9a" WIDTH="4"/>
-                                                          <node ID="ID_315372832" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="258 px" VSHIFT_QUANTITY="-111 px" MIN_WIDTH="112" MAX_WIDTH="112">
+                                                          <node ID="ID_315372832" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="258 px" VSHIFT_QUANTITY="-111 px" MIN_WIDTH="112" MAX_WIDTH="112">
                                                             <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                             <edge COLOR="#9a7c93" WIDTH="4"/>
                                                             <richcontent TYPE="NODE"><html><head/><body>
@@ -794,11 +794,11 @@
                                                             <arrowlink DESTINATION="ID_315453144" COLOR="#ac64b9" MIDDLE_LABEL="Fathers her  children" STARTARROW="NONE" ENDARROW="DEFAULT"/>
                                                           </node>
                                                         </node>
-                                                        <node ID="ID_345068352" TEXT="Gershon" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="269 px" VSHIFT_QUANTITY="-23 px" MIN_WIDTH="113" MAX_WIDTH="113">
+                                                        <node ID="ID_345068352" TEXT="Gershon" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="269 px" VSHIFT_QUANTITY="-23 px" MIN_WIDTH="113" MAX_WIDTH="113">
                                                           <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                           <edge COLOR="#e2bc9a" WIDTH="4"/>
                                                         </node>
-                                                        <node ID="ID_358207648" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="144 px" VSHIFT_QUANTITY="-155 px" MIN_WIDTH="136" MAX_WIDTH="136">
+                                                        <node ID="ID_358207648" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="144 px" VSHIFT_QUANTITY="-155 px" MIN_WIDTH="136" MAX_WIDTH="136">
                                                           <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                           <edge COLOR="#e2bc9a" WIDTH="4"/>
                                                           <richcontent TYPE="NODE"><html><head/><body>
@@ -806,7 +806,7 @@
                                                             <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"Bitter one"</span></p>
                                                           </body></html></richcontent>
                                                         </node>
-                                                        <node ID="ID_315453144" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="106 px" VSHIFT_QUANTITY="-264 px" MIN_WIDTH="169" MAX_WIDTH="169">
+                                                        <node ID="ID_315453144" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="106 px" VSHIFT_QUANTITY="-264 px" MIN_WIDTH="169" MAX_WIDTH="169">
                                                           <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                           <edge COLOR="#e2bc9a" WIDTH="4"/>
                                                           <richcontent TYPE="NODE"><html><head/><body>
@@ -814,7 +814,7 @@
                                                             <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"God is Glory"</span></p>
                                                             <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">F</span></p>
                                                           </body></html></richcontent>
-                                                          <node ID="ID_97982720" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="185 px" VSHIFT_QUANTITY="-1237 px" MIN_WIDTH="523" MAX_WIDTH="523">
+                                                          <node ID="ID_97982720" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="185 px" VSHIFT_QUANTITY="-1237 px" MIN_WIDTH="523" MAX_WIDTH="523">
                                                             <font NAME="LiberationSans" SIZE="49" BOLD="true"/>
                                                             <edge COLOR="#9a7c93" WIDTH="4"/>
                                                             <richcontent TYPE="NODE"><html><head/><body>
@@ -840,7 +840,7 @@
                                                               <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-style: italic">the promised land, because he disrespected </span></p>
                                                               <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-style: italic">the Lord in front of his people </span></p>
                                                             </body></html></richcontent>
-                                                            <node ID="ID_315857096" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="146 px" VSHIFT_QUANTITY="-277 px" MIN_WIDTH="232" MAX_WIDTH="232">
+                                                            <node ID="ID_315857096" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="146 px" VSHIFT_QUANTITY="-277 px" MIN_WIDTH="232" MAX_WIDTH="232">
                                                               <font NAME="LiberationSans" SIZE="28" BOLD="true"/>
                                                               <edge COLOR="#be4781" WIDTH="4"/>
                                                               <richcontent TYPE="NODE"><html><head/><body>
@@ -850,7 +850,7 @@
                                                                 <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-style: italic">daughter of Jethro</span></p>
                                                                 <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-style: italic"> the Midianite priest</span></p>
                                                               </body></html></richcontent>
-                                                              <node ID="ID_342648528" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="383 px" VSHIFT_QUANTITY="-400 px" MIN_WIDTH="557" MAX_WIDTH="557">
+                                                              <node ID="ID_342648528" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="383 px" VSHIFT_QUANTITY="-400 px" MIN_WIDTH="557" MAX_WIDTH="557">
                                                                 <font NAME="LiberationSans" SIZE="38" BOLD="true"/>
                                                                 <edge COLOR="#e68447" WIDTH="4"/>
                                                                 <richcontent TYPE="NODE"><html><head/><body>
@@ -861,7 +861,7 @@
                                                                   <p><span style="font-family: LiberationSans; font-size: 38pt; color: #ffffff; font-style: italic"> in a foreign land."</span></p>
                                                                 </body></html></richcontent>
                                                               </node>
-                                                              <node ID="ID_342696304" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="208 px" VSHIFT_QUANTITY="-230 px" MIN_WIDTH="311" MAX_WIDTH="311">
+                                                              <node ID="ID_342696304" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="208 px" VSHIFT_QUANTITY="-230 px" MIN_WIDTH="311" MAX_WIDTH="311">
                                                                 <font NAME="LiberationSans" SIZE="37" BOLD="true"/>
                                                                 <edge COLOR="#e68447" WIDTH="4"/>
                                                                 <richcontent TYPE="NODE"><html><head/><body>
@@ -871,7 +871,7 @@
                                                               </node>
                                                             </node>
                                                           </node>
-                                                          <node ID="ID_228698576" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="466 px" VSHIFT_QUANTITY="-899 px" MIN_WIDTH="578" MAX_WIDTH="578">
+                                                          <node ID="ID_228698576" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="466 px" VSHIFT_QUANTITY="-899 px" MIN_WIDTH="578" MAX_WIDTH="578">
                                                             <font NAME="LiberationSans" SIZE="33" BOLD="true"/>
                                                             <edge COLOR="#9a7c93" WIDTH="4"/>
                                                             <richcontent TYPE="NODE"><html><head/><body>
@@ -887,7 +887,7 @@
                                                               <p>&#160;</p>
                                                               <p><span style="font-family: LiberationSans; font-size: 25pt; color: #ffffff; font-style: italic">Aaron's response was silence </span></p>
                                                             </body></html></richcontent>
-                                                            <node ID="ID_97184176" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="97 px" VSHIFT_QUANTITY="-451 px" MIN_WIDTH="300" MAX_WIDTH="300">
+                                                            <node ID="ID_97184176" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="97 px" VSHIFT_QUANTITY="-451 px" MIN_WIDTH="300" MAX_WIDTH="300">
                                                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                               <edge COLOR="#be4781" WIDTH="4"/>
                                                               <richcontent TYPE="NODE"><html><head/><body>
@@ -902,7 +902,7 @@
                                                                 <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-weight: bold">consumed by God</span></p>
                                                               </body></html></richcontent>
                                                             </node>
-                                                            <node ID="ID_93127584" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="398 px" VSHIFT_QUANTITY="-115 px" MIN_WIDTH="298" MAX_WIDTH="298">
+                                                            <node ID="ID_93127584" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="398 px" VSHIFT_QUANTITY="-115 px" MIN_WIDTH="298" MAX_WIDTH="298">
                                                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                               <edge COLOR="#be4781" WIDTH="4"/>
                                                               <richcontent TYPE="NODE"><html><head/><body>
@@ -913,7 +913,7 @@
                                                                 <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-weight: bold">Also consumed by God</span></p>
                                                               </body></html></richcontent>
                                                             </node>
-                                                            <node ID="ID_227617776" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="480 px" VSHIFT_QUANTITY="202 px" MIN_WIDTH="417" MAX_WIDTH="417">
+                                                            <node ID="ID_227617776" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="480 px" VSHIFT_QUANTITY="202 px" MIN_WIDTH="417" MAX_WIDTH="417">
                                                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                               <edge COLOR="#be4781" WIDTH="4"/>
                                                               <richcontent TYPE="NODE"><html><head/><body>
@@ -923,7 +923,7 @@
                                                                 <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">Becomes high priest after Aaron dies</span></p>
                                                               </body></html></richcontent>
                                                             </node>
-                                                            <node ID="ID_343076696" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="456 px" VSHIFT_QUANTITY="475 px" MIN_WIDTH="354" MAX_WIDTH="354">
+                                                            <node ID="ID_343076696" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="456 px" VSHIFT_QUANTITY="475 px" MIN_WIDTH="354" MAX_WIDTH="354">
                                                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                               <edge COLOR="#be4781" WIDTH="4"/>
                                                               <richcontent TYPE="NODE"><html><head/><body>
@@ -937,7 +937,7 @@
                                                               </body></html></richcontent>
                                                             </node>
                                                           </node>
-                                                          <node ID="ID_315824120" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="428 px" VSHIFT_QUANTITY="-349 px" MIN_WIDTH="219" MAX_WIDTH="219">
+                                                          <node ID="ID_315824120" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="428 px" VSHIFT_QUANTITY="-349 px" MIN_WIDTH="219" MAX_WIDTH="219">
                                                             <font NAME="LiberationSans" SIZE="26" BOLD="true"/>
                                                             <edge COLOR="#9a7c93" WIDTH="4"/>
                                                             <richcontent TYPE="NODE"><html><head/><body>
@@ -950,14 +950,14 @@
                                                           </node>
                                                         </node>
                                                       </node>
-                                                      <node ID="ID_348177856" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="1082 px" VSHIFT_QUANTITY="-439 px" MIN_WIDTH="100" MAX_WIDTH="100">
+                                                      <node ID="ID_348177856" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="1082 px" VSHIFT_QUANTITY="-439 px" MIN_WIDTH="100" MAX_WIDTH="100">
                                                         <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                         <edge COLOR="#8c2189" WIDTH="4"/>
                                                         <richcontent TYPE="NODE"><html><head/><body>
                                                           <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-weight: bold">Judah</span></p>
                                                           <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"Praise"</span></p>
                                                         </body></html></richcontent>
-                                                        <node ID="ID_343670688" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="427 px" VSHIFT_QUANTITY="-514 px" MIN_WIDTH="229" MAX_WIDTH="229">
+                                                        <node ID="ID_343670688" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="427 px" VSHIFT_QUANTITY="-514 px" MIN_WIDTH="229" MAX_WIDTH="229">
                                                           <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                           <edge COLOR="#e2bc9a" WIDTH="4"/>
                                                           <richcontent TYPE="NODE"><html><head/><body>
@@ -971,7 +971,7 @@
                                                             <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-weight: bold">God destroys him</span></p>
                                                           </body></html></richcontent>
                                                         </node>
-                                                        <node ID="ID_343715576" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="154 px" VSHIFT_QUANTITY="-516 px" MIN_WIDTH="231" MAX_WIDTH="231">
+                                                        <node ID="ID_343715576" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="154 px" VSHIFT_QUANTITY="-516 px" MIN_WIDTH="231" MAX_WIDTH="231">
                                                           <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                           <edge COLOR="#e2bc9a" WIDTH="4"/>
                                                           <richcontent TYPE="NODE"><html><head/><body>
@@ -983,7 +983,7 @@
                                                             <p>&#160;</p>
                                                           </body></html></richcontent>
                                                         </node>
-                                                        <node ID="ID_343937784" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="112 px" VSHIFT_QUANTITY="-520 px" MIN_WIDTH="194" MAX_WIDTH="194">
+                                                        <node ID="ID_343937784" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="112 px" VSHIFT_QUANTITY="-520 px" MIN_WIDTH="194" MAX_WIDTH="194">
                                                           <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                           <edge COLOR="#e2bc9a" WIDTH="4"/>
                                                           <richcontent TYPE="NODE"><html><head/><body>
@@ -994,7 +994,7 @@
                                                             <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">Judah withholds</span></p>
                                                           </body></html></richcontent>
                                                         </node>
-                                                        <node ID="ID_367759152" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="352 px" VSHIFT_QUANTITY="-336 px" MIN_WIDTH="299" MAX_WIDTH="299">
+                                                        <node ID="ID_367759152" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="352 px" VSHIFT_QUANTITY="-336 px" MIN_WIDTH="299" MAX_WIDTH="299">
                                                           <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                           <edge COLOR="#e2bc9a" WIDTH="4"/>
                                                           <richcontent TYPE="NODE"><html><head/><body>
@@ -1008,14 +1008,14 @@
                                                             <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-style: italic">of the entire royal path</span></p>
                                                             <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-style: italic">to Jesus Christ</span></p>
                                                           </body></html></richcontent>
-                                                          <node ID="ID_348481584" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="87 px" VSHIFT_QUANTITY="-129 px" MIN_WIDTH="108" MAX_WIDTH="108">
+                                                          <node ID="ID_348481584" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="87 px" VSHIFT_QUANTITY="-129 px" MIN_WIDTH="108" MAX_WIDTH="108">
                                                             <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                             <edge COLOR="#9a7c93" WIDTH="4"/>
                                                             <richcontent TYPE="NODE"><html><head/><body>
                                                               <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-weight: bold">Perez</span></p>
                                                               <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"Breach"</span></p>
                                                             </body></html></richcontent>
-                                                            <node ID="ID_93825240" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="355 px" VSHIFT_QUANTITY="-519 px" MIN_WIDTH="227" MAX_WIDTH="227">
+                                                            <node ID="ID_93825240" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="355 px" VSHIFT_QUANTITY="-519 px" MIN_WIDTH="227" MAX_WIDTH="227">
                                                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                               <edge COLOR="#be4781" WIDTH="4"/>
                                                               <richcontent TYPE="NODE"><html><head/><body>
@@ -1030,14 +1030,14 @@
                                                                 <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-style: italic">This appears to </span></p>
                                                                 <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-style: italic">symbolize </span></p>
                                                               </body></html></richcontent>
-                                                              <node ID="ID_218336128" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="465 px" VSHIFT_QUANTITY="-47 px" MIN_WIDTH="315" MAX_WIDTH="315">
+                                                              <node ID="ID_218336128" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="465 px" VSHIFT_QUANTITY="-47 px" MIN_WIDTH="315" MAX_WIDTH="315">
                                                                 <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                 <edge COLOR="#e68447" WIDTH="4"/>
                                                                 <richcontent TYPE="NODE"><html><head/><body>
                                                                   <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-weight: bold">Jerahmeel</span></p>
                                                                   <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"God will have compassion"</span></p>
                                                                 </body></html></richcontent>
-                                                                <node ID="ID_94467832" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="106 px" VSHIFT_QUANTITY="-232 px" MIN_WIDTH="112" MAX_WIDTH="112">
+                                                                <node ID="ID_94467832" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="106 px" VSHIFT_QUANTITY="-232 px" MIN_WIDTH="112" MAX_WIDTH="112">
                                                                   <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                   <edge COLOR="#39ac69" WIDTH="4"/>
                                                                   <richcontent TYPE="NODE"><html><head/><body>
@@ -1045,7 +1045,7 @@
                                                                     <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"crown" /</span></p>
                                                                     <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"wreath"</span></p>
                                                                   </body></html></richcontent>
-                                                                  <node ID="ID_345805528" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="229 px" VSHIFT_QUANTITY="-214 px" MIN_WIDTH="307" MAX_WIDTH="307">
+                                                                  <node ID="ID_345805528" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="229 px" VSHIFT_QUANTITY="-214 px" MIN_WIDTH="307" MAX_WIDTH="307">
                                                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                     <edge COLOR="#79997f" WIDTH="4"/>
                                                                     <richcontent TYPE="NODE"><html><head/><body>
@@ -1057,14 +1057,14 @@
                                                                     </body></html></richcontent>
                                                                   </node>
                                                                 </node>
-                                                                <node ID="ID_345685464" BACKGROUND_COLOR="#c797d6" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="151 px" VSHIFT_QUANTITY="-167 px" MIN_WIDTH="210" MAX_WIDTH="210">
+                                                                <node ID="ID_345685464" BACKGROUND_COLOR="#c797d6" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="151 px" VSHIFT_QUANTITY="-167 px" MIN_WIDTH="210" MAX_WIDTH="210">
                                                                   <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                   <edge COLOR="#2fd8a7" WIDTH="4"/>
                                                                   <richcontent TYPE="NODE"><html><head/><body>
                                                                     <p>Mother unknown</p>
                                                                     <p>unspecified</p>
                                                                   </body></html></richcontent>
-                                                                  <node ID="ID_345873440" BACKGROUND_COLOR="#ffb845" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="288 px" VSHIFT_QUANTITY="-290 px" MIN_WIDTH="188" MAX_WIDTH="188">
+                                                                  <node ID="ID_345873440" BACKGROUND_COLOR="#ffb845" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="288 px" VSHIFT_QUANTITY="-290 px" MIN_WIDTH="188" MAX_WIDTH="188">
                                                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                     <edge COLOR="#6b1588" WIDTH="4"/>
                                                                     <richcontent TYPE="NODE"><html><head/><body>
@@ -1073,7 +1073,7 @@
                                                                       <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"discernment"</span></p>
                                                                     </body></html></richcontent>
                                                                   </node>
-                                                                  <node ID="ID_345920688" BACKGROUND_COLOR="#ffb845" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="246 px" VSHIFT_QUANTITY="-130 px" MIN_WIDTH="146" MAX_WIDTH="146">
+                                                                  <node ID="ID_345920688" BACKGROUND_COLOR="#ffb845" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="246 px" VSHIFT_QUANTITY="-130 px" MIN_WIDTH="146" MAX_WIDTH="146">
                                                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                     <edge COLOR="#6b1588" WIDTH="4"/>
                                                                     <richcontent TYPE="NODE"><html><head/><body>
@@ -1082,7 +1082,7 @@
                                                                       <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"Exalted"</span></p>
                                                                     </body></html></richcontent>
                                                                   </node>
-                                                                  <node ID="ID_345975824" BACKGROUND_COLOR="#ffb845" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="259 px" VSHIFT_QUANTITY="29 px" MIN_WIDTH="159" MAX_WIDTH="159">
+                                                                  <node ID="ID_345975824" BACKGROUND_COLOR="#ffb845" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="259 px" VSHIFT_QUANTITY="29 px" MIN_WIDTH="159" MAX_WIDTH="159">
                                                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                     <edge COLOR="#6b1588" WIDTH="4"/>
                                                                     <richcontent TYPE="NODE"><html><head/><body>
@@ -1091,7 +1091,7 @@
                                                                       <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"Ash tree"</span></p>
                                                                     </body></html></richcontent>
                                                                   </node>
-                                                                  <node ID="ID_346033232" BACKGROUND_COLOR="#ffb845" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="347 px" VSHIFT_QUANTITY="189 px" MIN_WIDTH="247" MAX_WIDTH="247">
+                                                                  <node ID="ID_346033232" BACKGROUND_COLOR="#ffb845" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="347 px" VSHIFT_QUANTITY="189 px" MIN_WIDTH="247" MAX_WIDTH="247">
                                                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                     <edge COLOR="#6b1588" WIDTH="4"/>
                                                                     <richcontent TYPE="NODE"><html><head/><body>
@@ -1104,7 +1104,7 @@
                                                                   </node>
                                                                 </node>
                                                               </node>
-                                                              <node ID="ID_98120728" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="30 px" VSHIFT_QUANTITY="-263 px" MIN_WIDTH="152" MAX_WIDTH="152">
+                                                              <node ID="ID_98120728" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="30 px" VSHIFT_QUANTITY="-263 px" MIN_WIDTH="152" MAX_WIDTH="152">
                                                                 <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                 <edge COLOR="#e68447" WIDTH="4"/>
                                                                 <richcontent TYPE="NODE"><html><head/><body>
@@ -1112,7 +1112,7 @@
                                                                   <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"To Be High"</span></p>
                                                                   <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"Exalted"</span></p>
                                                                 </body></html></richcontent>
-                                                                <node ID="ID_346102640" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="200 px" VSHIFT_QUANTITY="-313 px" MIN_WIDTH="333" MAX_WIDTH="333">
+                                                                <node ID="ID_346102640" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="200 px" VSHIFT_QUANTITY="-313 px" MIN_WIDTH="333" MAX_WIDTH="333">
                                                                   <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                   <edge COLOR="#39ac69" WIDTH="4"/>
                                                                   <richcontent TYPE="NODE"><html><head/><body>
@@ -1120,7 +1120,7 @@
                                                                     <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">(ammi, "my people/kinsman")</span></p>
                                                                     <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">(nadav, "willing, noble")</span></p>
                                                                   </body></html></richcontent>
-                                                                  <node ID="ID_344920336" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="344 px" VSHIFT_QUANTITY="-580 px" MIN_WIDTH="548" MAX_WIDTH="548">
+                                                                  <node ID="ID_344920336" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="344 px" VSHIFT_QUANTITY="-580 px" MIN_WIDTH="548" MAX_WIDTH="548">
                                                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                     <edge COLOR="#79997f" WIDTH="4"/>
                                                                     <richcontent TYPE="NODE"><html><head/><body>
@@ -1139,7 +1139,7 @@
                                                                       <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-style: italic">Nahshon is prince of Judah in the wilderness </span></p>
                                                                       <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-style: italic">(Numbers 2:3)</span></p>
                                                                     </body></html></richcontent>
-                                                                    <node ID="ID_344729704" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="267 px" VSHIFT_QUANTITY="-355 px" MIN_WIDTH="336" MAX_WIDTH="336">
+                                                                    <node ID="ID_344729704" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="267 px" VSHIFT_QUANTITY="-355 px" MIN_WIDTH="336" MAX_WIDTH="336">
                                                                       <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                       <edge COLOR="#8c2189" WIDTH="4"/>
                                                                       <richcontent TYPE="NODE"><html><head/><body>
@@ -1150,7 +1150,7 @@
                                                                         <p>&#160;</p>
                                                                         <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">(shalom, "peace/wholeness")</span></p>
                                                                       </body></html></richcontent>
-                                                                      <node ID="ID_344757576" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="324 px" VSHIFT_QUANTITY="-334 px" MIN_WIDTH="307" MAX_WIDTH="307">
+                                                                      <node ID="ID_344757576" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="324 px" VSHIFT_QUANTITY="-334 px" MIN_WIDTH="307" MAX_WIDTH="307">
                                                                         <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                         <edge COLOR="#e2bc9a" WIDTH="4"/>
                                                                         <richcontent TYPE="NODE"><html><head/><body>
@@ -1160,7 +1160,7 @@
                                                                           <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff"> עַז (az, "strength"): </span></p>
                                                                           <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"in him is strength."</span></p>
                                                                         </body></html></richcontent>
-                                                                        <node ID="ID_344834976" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="388 px" VSHIFT_QUANTITY="-108 px" MIN_WIDTH="252" MAX_WIDTH="252">
+                                                                        <node ID="ID_344834976" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="388 px" VSHIFT_QUANTITY="-108 px" MIN_WIDTH="252" MAX_WIDTH="252">
                                                                           <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                           <edge COLOR="#9a7c93" WIDTH="4"/>
                                                                           <richcontent TYPE="NODE"><html><head/><body>
@@ -1168,7 +1168,7 @@
                                                                             <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"servant, worshipper."</span></p>
                                                                             <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"the one who serves"</span></p>
                                                                           </body></html></richcontent>
-                                                                          <node ID="ID_344651320" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="413 px" VSHIFT_QUANTITY="-293 px" MIN_WIDTH="501" MAX_WIDTH="501">
+                                                                          <node ID="ID_344651320" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="413 px" VSHIFT_QUANTITY="-293 px" MIN_WIDTH="501" MAX_WIDTH="501">
                                                                             <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                             <edge COLOR="#be4781" WIDTH="4"/>
                                                                             <richcontent TYPE="NODE"><html><head/><body>
@@ -1179,7 +1179,7 @@
                                                                               <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">Possibly from יֵשׁ (yesh, "there is/exists") + </span></p>
                                                                               <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">a divine suffix: "God exists" or "man of God."</span></p>
                                                                             </body></html></richcontent>
-                                                                            <node ID="ID_344512616" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="613 px" VSHIFT_QUANTITY="-517 px" MIN_WIDTH="756" MAX_WIDTH="756">
+                                                                            <node ID="ID_344512616" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="613 px" VSHIFT_QUANTITY="-517 px" MIN_WIDTH="756" MAX_WIDTH="756">
                                                                               <font NAME="LiberationSans" SIZE="48" BOLD="true"/>
                                                                               <edge COLOR="#e68447" WIDTH="4"/>
                                                                               <richcontent TYPE="NODE"><html><head/><body>
@@ -1199,7 +1199,7 @@
                                                                   </node>
                                                                 </node>
                                                               </node>
-                                                              <node ID="ID_97888992" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="592 px" VSHIFT_QUANTITY="-328 px" MIN_WIDTH="192" MAX_WIDTH="192">
+                                                              <node ID="ID_97888992" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="592 px" VSHIFT_QUANTITY="-328 px" MIN_WIDTH="192" MAX_WIDTH="192">
                                                                 <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                 <edge COLOR="#e68447" WIDTH="4"/>
                                                                 <richcontent TYPE="NODE"><html><head/><body>
@@ -1207,7 +1207,7 @@
                                                                   <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"Dog" or</span></p>
                                                                   <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"Wholehearted"</span></p>
                                                                 </body></html></richcontent>
-                                                                <node ID="ID_344561000" BACKGROUND_COLOR="#eba4b0" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="47 px" VSHIFT_QUANTITY="-427 px" MIN_WIDTH="268" MAX_WIDTH="268">
+                                                                <node ID="ID_344561000" BACKGROUND_COLOR="#eba4b0" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="47 px" VSHIFT_QUANTITY="-427 px" MIN_WIDTH="268" MAX_WIDTH="268">
                                                                   <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                   <edge COLOR="#2fd8a7" WIDTH="4"/>
                                                                   <richcontent TYPE="NODE"><html><head/><body>
@@ -1220,7 +1220,7 @@
                                                                     <p>&#160;</p>
                                                                     <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">First wife</span></p>
                                                                   </body></html></richcontent>
-                                                                  <node ID="ID_346202088" BACKGROUND_COLOR="#ebc4a3" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="177 px" VSHIFT_QUANTITY="-209 px" MIN_WIDTH="117" MAX_WIDTH="117">
+                                                                  <node ID="ID_346202088" BACKGROUND_COLOR="#ebc4a3" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="177 px" VSHIFT_QUANTITY="-209 px" MIN_WIDTH="117" MAX_WIDTH="117">
                                                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                     <edge COLOR="#cf2341" WIDTH="4"/>
                                                                     <richcontent TYPE="NODE"><html><head/><body>
@@ -1229,7 +1229,7 @@
                                                                       <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"Straight"</span></p>
                                                                     </body></html></richcontent>
                                                                   </node>
-                                                                  <node ID="ID_346252736" BACKGROUND_COLOR="#ebc4a3" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="10 px" VSHIFT_QUANTITY="-209 px" MIN_WIDTH="156" MAX_WIDTH="156">
+                                                                  <node ID="ID_346252736" BACKGROUND_COLOR="#ebc4a3" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="10 px" VSHIFT_QUANTITY="-209 px" MIN_WIDTH="156" MAX_WIDTH="156">
                                                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                     <edge COLOR="#cf2341" WIDTH="4"/>
                                                                     <richcontent TYPE="NODE"><html><head/><body>
@@ -1238,7 +1238,7 @@
                                                                       <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"Backsliding"</span></p>
                                                                     </body></html></richcontent>
                                                                   </node>
-                                                                  <node ID="ID_346318160" BACKGROUND_COLOR="#ebc4a3" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="196 px" VSHIFT_QUANTITY="-277 px" MIN_WIDTH="248" MAX_WIDTH="248">
+                                                                  <node ID="ID_346318160" BACKGROUND_COLOR="#ebc4a3" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="196 px" VSHIFT_QUANTITY="-277 px" MIN_WIDTH="248" MAX_WIDTH="248">
                                                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                     <edge COLOR="#cf2341" WIDTH="4"/>
                                                                     <richcontent TYPE="NODE"><html><head/><body>
@@ -1250,7 +1250,7 @@
                                                                     </body></html></richcontent>
                                                                   </node>
                                                                 </node>
-                                                                <node ID="ID_344440712" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="349 px" VSHIFT_QUANTITY="-410 px" MIN_WIDTH="371" MAX_WIDTH="371">
+                                                                <node ID="ID_344440712" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="349 px" VSHIFT_QUANTITY="-410 px" MIN_WIDTH="371" MAX_WIDTH="371">
                                                                   <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                   <edge COLOR="#39ac69" WIDTH="4"/>
                                                                   <richcontent TYPE="NODE"><html><head/><body>
@@ -1265,7 +1265,7 @@
                                                                     <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">Second wife</span></p>
                                                                     <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">after Azubah's death </span></p>
                                                                   </body></html></richcontent>
-                                                                  <node ID="ID_329150512" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="521 px" VSHIFT_QUANTITY="-13 px" MIN_WIDTH="307" MAX_WIDTH="307">
+                                                                  <node ID="ID_329150512" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="521 px" VSHIFT_QUANTITY="-13 px" MIN_WIDTH="307" MAX_WIDTH="307">
                                                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                     <edge COLOR="#a6a07b" WIDTH="4"/>
                                                                     <richcontent TYPE="NODE"><html><head/><body>
@@ -1279,14 +1279,14 @@
                                                                       <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">Born a slave, then freed</span></p>
                                                                       <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">in Exodus by God</span></p>
                                                                     </body></html></richcontent>
-                                                                    <node ID="ID_329294400" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="407 px" VSHIFT_QUANTITY="-283 px" MIN_WIDTH="124" MAX_WIDTH="124">
+                                                                    <node ID="ID_329294400" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="407 px" VSHIFT_QUANTITY="-283 px" MIN_WIDTH="124" MAX_WIDTH="124">
                                                                       <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                       <edge COLOR="#cecf4d" WIDTH="4"/>
                                                                       <richcontent TYPE="NODE"><html><head/><body>
                                                                         <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-weight: bold">Uri</span></p>
                                                                         <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-style: italic">"My Light"</span></p>
                                                                       </body></html></richcontent>
-                                                                      <node ID="ID_329596600" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="224 px" VSHIFT_QUANTITY="-101 px" MIN_WIDTH="320" MAX_WIDTH="320">
+                                                                      <node ID="ID_329596600" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="224 px" VSHIFT_QUANTITY="-101 px" MIN_WIDTH="320" MAX_WIDTH="320">
                                                                         <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                         <edge COLOR="#789dab" WIDTH="4"/>
                                                                         <richcontent TYPE="NODE"><html><head/><body>
@@ -1301,7 +1301,7 @@
                                                                         </body></html></richcontent>
                                                                       </node>
                                                                     </node>
-                                                                    <node ID="ID_329325352" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="407 px" VSHIFT_QUANTITY="-21 px" MIN_WIDTH="358" MAX_WIDTH="358">
+                                                                    <node ID="ID_329325352" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="407 px" VSHIFT_QUANTITY="-21 px" MIN_WIDTH="358" MAX_WIDTH="358">
                                                                       <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                       <edge COLOR="#cecf4d" WIDTH="4"/>
                                                                       <richcontent TYPE="NODE"><html><head/><body>
@@ -1312,7 +1312,7 @@
                                                                         <p>&#160;</p>
                                                                         <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-style: italic">(shalom, "peace/wholeness")</span></p>
                                                                       </body></html></richcontent>
-                                                                      <node ID="ID_329625128" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="458 px" VSHIFT_QUANTITY="14 px" MIN_WIDTH="327" MAX_WIDTH="327">
+                                                                      <node ID="ID_329625128" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="458 px" VSHIFT_QUANTITY="14 px" MIN_WIDTH="327" MAX_WIDTH="327">
                                                                         <font NAME="LiberationSans" SIZE="37" BOLD="true"/>
                                                                         <edge COLOR="#789dab" WIDTH="4"/>
                                                                         <richcontent TYPE="NODE"><html><head/><body>
@@ -1323,7 +1323,7 @@
                                                                         </body></html></richcontent>
                                                                       </node>
                                                                     </node>
-                                                                    <node ID="ID_329393272" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="407 px" VSHIFT_QUANTITY="259 px" MIN_WIDTH="353" MAX_WIDTH="353">
+                                                                    <node ID="ID_329393272" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="407 px" VSHIFT_QUANTITY="259 px" MIN_WIDTH="353" MAX_WIDTH="353">
                                                                       <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                       <edge COLOR="#cecf4d" WIDTH="4"/>
                                                                       <richcontent TYPE="NODE"><html><head/><body>
@@ -1335,7 +1335,7 @@
                                                                         <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-style: italic">the garment that covers, </span></p>
                                                                         <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-style: italic">the season that gathers</span></p>
                                                                       </body></html></richcontent>
-                                                                      <node ID="ID_329723176" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="453 px" VSHIFT_QUANTITY="17 px" MIN_WIDTH="488" MAX_WIDTH="488">
+                                                                      <node ID="ID_329723176" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="453 px" VSHIFT_QUANTITY="17 px" MIN_WIDTH="488" MAX_WIDTH="488">
                                                                         <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                         <edge COLOR="#789dab" WIDTH="4"/>
                                                                         <richcontent TYPE="NODE"><html><head/><body>
@@ -1348,7 +1348,7 @@
                                                                         </body></html></richcontent>
                                                                       </node>
                                                                     </node>
-                                                                    <node ID="ID_329518088" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="407 px" VSHIFT_QUANTITY="586 px" MIN_WIDTH="295" MAX_WIDTH="295">
+                                                                    <node ID="ID_329518088" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="407 px" VSHIFT_QUANTITY="586 px" MIN_WIDTH="295" MAX_WIDTH="295">
                                                                       <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                       <edge COLOR="#cecf4d" WIDTH="4"/>
                                                                       <richcontent TYPE="NODE"><html><head/><body>
@@ -1356,7 +1356,7 @@
                                                                         <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"reproach, defy"</span></p>
                                                                         <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff"> maybe "autumn/harvest" </span></p>
                                                                       </body></html></richcontent>
-                                                                      <node ID="ID_370343008" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="395 px" VSHIFT_QUANTITY="0 px" MIN_WIDTH="284" MAX_WIDTH="284">
+                                                                      <node ID="ID_370343008" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="395 px" VSHIFT_QUANTITY="0 px" MIN_WIDTH="284" MAX_WIDTH="284">
                                                                         <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                         <edge COLOR="#789dab" WIDTH="4"/>
                                                                         <richcontent TYPE="NODE"><html><head/><body>
@@ -1368,7 +1368,7 @@
                                                                     </node>
                                                                   </node>
                                                                 </node>
-                                                                <node ID="ID_344260392" BACKGROUND_COLOR="#a3b9a7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="691 px" VSHIFT_QUANTITY="156 px" MIN_WIDTH="141" MAX_WIDTH="141">
+                                                                <node ID="ID_344260392" BACKGROUND_COLOR="#a3b9a7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="691 px" VSHIFT_QUANTITY="156 px" MIN_WIDTH="141" MAX_WIDTH="141">
                                                                   <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                   <edge COLOR="#39ac69" WIDTH="4"/>
                                                                   <richcontent TYPE="NODE"><html><head/><body>
@@ -1378,7 +1378,7 @@
                                                                     <p>&#160;</p>
                                                                     <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">Concubine </span></p>
                                                                   </body></html></richcontent>
-                                                                  <node ID="ID_329801752" BACKGROUND_COLOR="#cfa3ce" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="241 px" VSHIFT_QUANTITY="-127 px" MIN_WIDTH="193" MAX_WIDTH="193">
+                                                                  <node ID="ID_329801752" BACKGROUND_COLOR="#cfa3ce" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="241 px" VSHIFT_QUANTITY="-127 px" MIN_WIDTH="193" MAX_WIDTH="193">
                                                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                     <edge COLOR="#79997f" WIDTH="4"/>
                                                                     <richcontent TYPE="NODE"><html><head/><body>
@@ -1387,7 +1387,7 @@
                                                                       <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"Mountaineer"</span></p>
                                                                     </body></html></richcontent>
                                                                   </node>
-                                                                  <node ID="ID_329874040" BACKGROUND_COLOR="#cfa3ce" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="241 px" VSHIFT_QUANTITY="33 px" MIN_WIDTH="155" MAX_WIDTH="155">
+                                                                  <node ID="ID_329874040" BACKGROUND_COLOR="#cfa3ce" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="241 px" VSHIFT_QUANTITY="33 px" MIN_WIDTH="155" MAX_WIDTH="155">
                                                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                     <edge COLOR="#79997f" WIDTH="4"/>
                                                                     <richcontent TYPE="NODE"><html><head/><body>
@@ -1397,7 +1397,7 @@
                                                                       <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"Spring"</span></p>
                                                                     </body></html></richcontent>
                                                                   </node>
-                                                                  <node ID="ID_329939448" BACKGROUND_COLOR="#cfa3ce" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="241 px" VSHIFT_QUANTITY="226 px" MIN_WIDTH="118" MAX_WIDTH="118">
+                                                                  <node ID="ID_329939448" BACKGROUND_COLOR="#cfa3ce" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="241 px" VSHIFT_QUANTITY="226 px" MIN_WIDTH="118" MAX_WIDTH="118">
                                                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                     <edge COLOR="#79997f" WIDTH="4"/>
                                                                     <richcontent TYPE="NODE"><html><head/><body>
@@ -1406,7 +1406,7 @@
                                                                     </body></html></richcontent>
                                                                   </node>
                                                                 </node>
-                                                                <node ID="ID_344070544" BACKGROUND_COLOR="#a3b9a7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="193 px" VSHIFT_QUANTITY="199 px" MIN_WIDTH="191" MAX_WIDTH="191">
+                                                                <node ID="ID_344070544" BACKGROUND_COLOR="#a3b9a7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="193 px" VSHIFT_QUANTITY="199 px" MIN_WIDTH="191" MAX_WIDTH="191">
                                                                   <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                   <edge COLOR="#39ac69" WIDTH="4"/>
                                                                   <richcontent TYPE="NODE"><html><head/><body>
@@ -1416,7 +1416,7 @@
                                                                     <p>&#160;</p>
                                                                     <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">Concubine </span></p>
                                                                   </body></html></richcontent>
-                                                                  <node ID="ID_329988360" BACKGROUND_COLOR="#cfa3ce" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="350 px" VSHIFT_QUANTITY="277 px" MIN_WIDTH="129" MAX_WIDTH="129">
+                                                                  <node ID="ID_329988360" BACKGROUND_COLOR="#cfa3ce" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="350 px" VSHIFT_QUANTITY="277 px" MIN_WIDTH="129" MAX_WIDTH="129">
                                                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                     <edge COLOR="#79997f" WIDTH="4"/>
                                                                     <richcontent TYPE="NODE"><html><head/><body>
@@ -1425,7 +1425,7 @@
                                                                       <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"Fracture"</span></p>
                                                                     </body></html></richcontent>
                                                                   </node>
-                                                                  <node ID="ID_330046976" BACKGROUND_COLOR="#cfa3ce" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="171 px" VSHIFT_QUANTITY="277 px" MIN_WIDTH="239" MAX_WIDTH="239">
+                                                                  <node ID="ID_330046976" BACKGROUND_COLOR="#cfa3ce" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="171 px" VSHIFT_QUANTITY="277 px" MIN_WIDTH="239" MAX_WIDTH="239">
                                                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                     <edge COLOR="#79997f" WIDTH="4"/>
                                                                     <richcontent TYPE="NODE"><html><head/><body>
@@ -1433,7 +1433,7 @@
                                                                       <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">uncertain etymology </span></p>
                                                                     </body></html></richcontent>
                                                                   </node>
-                                                                  <node ID="ID_330102936" BACKGROUND_COLOR="#cfa3ce" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="119 px" VSHIFT_QUANTITY="277 px" MIN_WIDTH="129" MAX_WIDTH="129">
+                                                                  <node ID="ID_330102936" BACKGROUND_COLOR="#cfa3ce" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="119 px" VSHIFT_QUANTITY="277 px" MIN_WIDTH="129" MAX_WIDTH="129">
                                                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                     <edge COLOR="#79997f" WIDTH="4"/>
                                                                     <richcontent TYPE="NODE"><html><head/><body>
@@ -1442,7 +1442,7 @@
                                                                       <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"Cleave"</span></p>
                                                                     </body></html></richcontent>
                                                                   </node>
-                                                                  <node ID="ID_330156728" BACKGROUND_COLOR="#cfa3ce" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="298 px" VSHIFT_QUANTITY="277 px" MIN_WIDTH="243" MAX_WIDTH="243">
+                                                                  <node ID="ID_330156728" BACKGROUND_COLOR="#cfa3ce" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="298 px" VSHIFT_QUANTITY="277 px" MIN_WIDTH="243" MAX_WIDTH="243">
                                                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                     <edge COLOR="#79997f" WIDTH="4"/>
                                                                     <richcontent TYPE="NODE"><html><head/><body>
@@ -1451,14 +1451,14 @@
                                                                     </body></html></richcontent>
                                                                   </node>
                                                                 </node>
-                                                                <node ID="ID_344154688" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="226 px" VSHIFT_QUANTITY="-99 px" MIN_WIDTH="210" MAX_WIDTH="210">
+                                                                <node ID="ID_344154688" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="226 px" VSHIFT_QUANTITY="-99 px" MIN_WIDTH="210" MAX_WIDTH="210">
                                                                   <font NAME="LiberationSans" SIZE="22" BOLD="true" ITALIC="true"/>
                                                                   <edge COLOR="#39ac69" WIDTH="4"/>
                                                                   <richcontent TYPE="NODE"><html><head/><body>
                                                                     <p>Mother unknown</p>
                                                                     <p>unspecified</p>
                                                                   </body></html></richcontent>
-                                                                  <node ID="ID_330228664" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="174 px" VSHIFT_QUANTITY="-185 px" MIN_WIDTH="185" MAX_WIDTH="185">
+                                                                  <node ID="ID_330228664" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="174 px" VSHIFT_QUANTITY="-185 px" MIN_WIDTH="185" MAX_WIDTH="185">
                                                                     <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                     <edge COLOR="#79997f" WIDTH="4"/>
                                                                     <richcontent TYPE="NODE"><html><head/><body>
@@ -1469,7 +1469,7 @@
                                                                   </node>
                                                                 </node>
                                                               </node>
-                                                              <node ID="ID_94428448" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="268 px" VSHIFT_QUANTITY="335 px" MIN_WIDTH="244" MAX_WIDTH="244">
+                                                              <node ID="ID_94428448" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="268 px" VSHIFT_QUANTITY="335 px" MIN_WIDTH="244" MAX_WIDTH="244">
                                                                 <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                                 <edge COLOR="#e68447" WIDTH="4"/>
                                                                 <richcontent TYPE="NODE"><html><head/><body>
@@ -1481,7 +1481,7 @@
                                                                 </body></html></richcontent>
                                                               </node>
                                                             </node>
-                                                            <node ID="ID_218278944" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="128 px" VSHIFT_QUANTITY="-197 px" MIN_WIDTH="221" MAX_WIDTH="221">
+                                                            <node ID="ID_218278944" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="128 px" VSHIFT_QUANTITY="-197 px" MIN_WIDTH="221" MAX_WIDTH="221">
                                                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                               <edge COLOR="#be4781" WIDTH="4"/>
                                                               <richcontent TYPE="NODE"><html><head/><body>
@@ -1490,37 +1490,37 @@
                                                               </body></html></richcontent>
                                                             </node>
                                                           </node>
-                                                          <node ID="ID_348621552" BACKGROUND_COLOR="#e4b3cb" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="607 px" VSHIFT_QUANTITY="115 px" MIN_WIDTH="216" MAX_WIDTH="216">
+                                                          <node ID="ID_348621552" BACKGROUND_COLOR="#e4b3cb" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="607 px" VSHIFT_QUANTITY="115 px" MIN_WIDTH="216" MAX_WIDTH="216">
                                                             <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                             <edge COLOR="#9a7c93" WIDTH="4"/>
                                                             <richcontent TYPE="NODE"><html><head/><body>
                                                               <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-weight: bold">Zerah</span></p>
                                                               <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"dawn, brightness"</span></p>
                                                             </body></html></richcontent>
-                                                            <node ID="ID_330302608" TEXT="Zimri /  Zabdi" BACKGROUND_COLOR="#f4ccb3" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="237 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="164" MAX_WIDTH="164">
+                                                            <node ID="ID_330302608" TEXT="Zimri /  Zabdi" BACKGROUND_COLOR="#f4ccb3" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="237 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="164" MAX_WIDTH="164">
                                                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                               <edge COLOR="#be4781" WIDTH="4"/>
                                                             </node>
-                                                            <node ID="ID_330335544" TEXT="Ethan" BACKGROUND_COLOR="#f4ccb3" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="22 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="80" MAX_WIDTH="80">
+                                                            <node ID="ID_330335544" TEXT="Ethan" BACKGROUND_COLOR="#f4ccb3" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="22 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="80" MAX_WIDTH="80">
                                                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                               <edge COLOR="#be4781" WIDTH="4"/>
                                                             </node>
-                                                            <node ID="ID_330386400" TEXT="Heman" BACKGROUND_COLOR="#f4ccb3" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="108 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="93" MAX_WIDTH="93">
+                                                            <node ID="ID_330386400" TEXT="Heman" BACKGROUND_COLOR="#f4ccb3" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="108 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="93" MAX_WIDTH="93">
                                                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                               <edge COLOR="#be4781" WIDTH="4"/>
                                                             </node>
-                                                            <node ID="ID_330447200" TEXT="Calcol" BACKGROUND_COLOR="#f4ccb3" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="251 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="85" MAX_WIDTH="85">
+                                                            <node ID="ID_330447200" TEXT="Calcol" BACKGROUND_COLOR="#f4ccb3" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="251 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="85" MAX_WIDTH="85">
                                                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                               <edge COLOR="#be4781" WIDTH="4"/>
                                                             </node>
-                                                            <node ID="ID_330508912" TEXT="Dara" BACKGROUND_COLOR="#f4ccb3" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="387 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="66" MAX_WIDTH="66">
+                                                            <node ID="ID_330508912" TEXT="Dara" BACKGROUND_COLOR="#f4ccb3" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="387 px" VSHIFT_QUANTITY="-142 px" MIN_WIDTH="66" MAX_WIDTH="66">
                                                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                               <edge COLOR="#be4781" WIDTH="4"/>
                                                             </node>
                                                           </node>
                                                         </node>
                                                       </node>
-                                                      <node ID="ID_326052840" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="562 px" VSHIFT_QUANTITY="3 px" MIN_WIDTH="177" MAX_WIDTH="177">
+                                                      <node ID="ID_326052840" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="562 px" VSHIFT_QUANTITY="3 px" MIN_WIDTH="177" MAX_WIDTH="177">
                                                         <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                         <edge COLOR="#8c2189" WIDTH="4"/>
                                                         <richcontent TYPE="NODE"><html><head/><body>
@@ -1528,7 +1528,7 @@
                                                           <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"Reward/hired"</span></p>
                                                         </body></html></richcontent>
                                                       </node>
-                                                      <node ID="ID_227750368" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="212 px" VSHIFT_QUANTITY="158 px" MIN_WIDTH="201" MAX_WIDTH="201">
+                                                      <node ID="ID_227750368" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="212 px" VSHIFT_QUANTITY="158 px" MIN_WIDTH="201" MAX_WIDTH="201">
                                                         <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                         <edge COLOR="#8c2189" WIDTH="4"/>
                                                         <richcontent TYPE="NODE"><html><head/><body>
@@ -1536,7 +1536,7 @@
                                                           <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"dwelling, honor."</span></p>
                                                         </body></html></richcontent>
                                                       </node>
-                                                      <node ID="ID_92847976" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="179 px" VSHIFT_QUANTITY="-234 px" MIN_WIDTH="154" MAX_WIDTH="154">
+                                                      <node ID="ID_92847976" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="179 px" VSHIFT_QUANTITY="-234 px" MIN_WIDTH="154" MAX_WIDTH="154">
                                                         <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                         <edge COLOR="#8c2189" WIDTH="4"/>
                                                         <richcontent TYPE="NODE"><html><head/><body>
@@ -1546,21 +1546,21 @@
                                                         </body></html></richcontent>
                                                       </node>
                                                     </node>
-                                                    <node ID="ID_342802144" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="161 px" VSHIFT_QUANTITY="733 px" MIN_WIDTH="131" MAX_WIDTH="131">
+                                                    <node ID="ID_342802144" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="161 px" VSHIFT_QUANTITY="733 px" MIN_WIDTH="131" MAX_WIDTH="131">
                                                       <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                       <edge COLOR="#79997f" WIDTH="4"/>
                                                       <richcontent TYPE="NODE"><html><head/><body>
                                                         <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-weight: bold">Rachel</span></p>
                                                         <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">Loved wife</span></p>
                                                       </body></html></richcontent>
-                                                      <node ID="ID_330559792" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="136 px" VSHIFT_QUANTITY="130 px" MIN_WIDTH="105" MAX_WIDTH="105">
+                                                      <node ID="ID_330559792" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="136 px" VSHIFT_QUANTITY="130 px" MIN_WIDTH="105" MAX_WIDTH="105">
                                                         <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                         <edge COLOR="#8c2189" WIDTH="4"/>
                                                         <richcontent TYPE="NODE"><html><head/><body>
                                                           <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-weight: bold">Joseph</span><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff"> </span></p>
                                                         </body></html></richcontent>
                                                       </node>
-                                                      <node ID="ID_330618568" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="293 px" VSHIFT_QUANTITY="293 px" MIN_WIDTH="723" MAX_WIDTH="723">
+                                                      <node ID="ID_330618568" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="293 px" VSHIFT_QUANTITY="293 px" MIN_WIDTH="723" MAX_WIDTH="723">
                                                         <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                         <edge COLOR="#8c2189" WIDTH="4"/>
                                                         <richcontent TYPE="NODE"><html><head/><body>
@@ -1589,14 +1589,14 @@
                                                         </body></html></richcontent>
                                                       </node>
                                                     </node>
-                                                    <node ID="ID_234027216" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="852 px" VSHIFT_QUANTITY="765 px" MIN_WIDTH="194" MAX_WIDTH="194">
+                                                    <node ID="ID_234027216" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="852 px" VSHIFT_QUANTITY="765 px" MIN_WIDTH="194" MAX_WIDTH="194">
                                                       <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                       <edge COLOR="#79997f" WIDTH="4"/>
                                                       <richcontent TYPE="NODE"><html><head/><body>
                                                         <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-weight: bold">Bilhah</span></p>
                                                         <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">Rachel's servant</span></p>
                                                       </body></html></richcontent>
-                                                      <node ID="ID_330669768" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="294 px" VSHIFT_QUANTITY="-63 px" MIN_WIDTH="98" MAX_WIDTH="98">
+                                                      <node ID="ID_330669768" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="294 px" VSHIFT_QUANTITY="-63 px" MIN_WIDTH="98" MAX_WIDTH="98">
                                                         <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                         <edge COLOR="#8c2189" WIDTH="4"/>
                                                         <richcontent TYPE="NODE"><html><head/><body>
@@ -1604,7 +1604,7 @@
                                                           <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"Judge"</span></p>
                                                         </body></html></richcontent>
                                                       </node>
-                                                      <node ID="ID_330740808" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="294 px" VSHIFT_QUANTITY="63 px" MIN_WIDTH="167" MAX_WIDTH="167">
+                                                      <node ID="ID_330740808" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="294 px" VSHIFT_QUANTITY="63 px" MIN_WIDTH="167" MAX_WIDTH="167">
                                                         <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                         <edge COLOR="#8c2189" WIDTH="4"/>
                                                         <richcontent TYPE="NODE"><html><head/><body>
@@ -1613,14 +1613,14 @@
                                                         </body></html></richcontent>
                                                       </node>
                                                     </node>
-                                                    <node ID="ID_315951816" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="236 px" VSHIFT_QUANTITY="854 px" MIN_WIDTH="172" MAX_WIDTH="172">
+                                                    <node ID="ID_315951816" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="236 px" VSHIFT_QUANTITY="854 px" MIN_WIDTH="172" MAX_WIDTH="172">
                                                       <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                       <edge COLOR="#79997f" WIDTH="4"/>
                                                       <richcontent TYPE="NODE"><html><head/><body>
                                                         <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-weight: bold">Zilpah</span></p>
                                                         <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">Leah's servant</span></p>
                                                       </body></html></richcontent>
-                                                      <node ID="ID_330804984" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="272 px" VSHIFT_QUANTITY="-63 px" MIN_WIDTH="224" MAX_WIDTH="224">
+                                                      <node ID="ID_330804984" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="272 px" VSHIFT_QUANTITY="-63 px" MIN_WIDTH="224" MAX_WIDTH="224">
                                                         <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                         <edge COLOR="#8c2189" WIDTH="4"/>
                                                         <richcontent TYPE="NODE"><html><head/><body>
@@ -1628,7 +1628,7 @@
                                                           <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"Fortune" or "troop"</span></p>
                                                         </body></html></richcontent>
                                                       </node>
-                                                      <node ID="ID_330849640" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="272 px" VSHIFT_QUANTITY="63 px" MIN_WIDTH="198" MAX_WIDTH="198">
+                                                      <node ID="ID_330849640" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="272 px" VSHIFT_QUANTITY="63 px" MIN_WIDTH="198" MAX_WIDTH="198">
                                                         <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                                         <edge COLOR="#8c2189" WIDTH="4"/>
                                                         <richcontent TYPE="NODE"><html><head/><body>
@@ -1641,11 +1641,11 @@
                                                 </node>
                                               </node>
                                             </node>
-                                            <node ID="ID_230951824" TEXT="Iscah" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="70 px" VSHIFT_QUANTITY="145 px" MIN_WIDTH="75" MAX_WIDTH="75">
+                                            <node ID="ID_230951824" TEXT="Iscah" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="70 px" VSHIFT_QUANTITY="145 px" MIN_WIDTH="75" MAX_WIDTH="75">
                                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                               <edge COLOR="#e68447" WIDTH="4"/>
                                             </node>
-                                            <node ID="ID_325429848" TEXT="Lot" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="223 px" VSHIFT_QUANTITY="154 px" MIN_WIDTH="62" MAX_WIDTH="62">
+                                            <node ID="ID_325429848" TEXT="Lot" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="223 px" VSHIFT_QUANTITY="154 px" MIN_WIDTH="62" MAX_WIDTH="62">
                                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                               <edge COLOR="#e68447" WIDTH="4"/>
                                             </node>
@@ -1658,32 +1658,32 @@
                               </node>
                             </node>
                           </node>
-                          <node ID="ID_319089152" TEXT="Lud" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="403 px" VSHIFT_QUANTITY="954 px" MIN_WIDTH="62" MAX_WIDTH="62">
+                          <node ID="ID_319089152" TEXT="Lud" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="403 px" VSHIFT_QUANTITY="954 px" MIN_WIDTH="62" MAX_WIDTH="62">
                             <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                             <edge COLOR="#35e1c8" WIDTH="4"/>
                           </node>
-                          <node ID="ID_317186472" TEXT="Aram" BACKGROUND_COLOR="#d0c1af" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="1 px" VSHIFT_QUANTITY="958 px" MIN_WIDTH="74" MAX_WIDTH="74">
+                          <node ID="ID_317186472" TEXT="Aram" BACKGROUND_COLOR="#d0c1af" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="1 px" VSHIFT_QUANTITY="958 px" MIN_WIDTH="74" MAX_WIDTH="74">
                             <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                             <edge COLOR="#35e1c8" WIDTH="4"/>
-                            <node ID="ID_330911776" TEXT="Uz" BACKGROUND_COLOR="#bee8bd" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="183 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="62" MAX_WIDTH="62">
+                            <node ID="ID_330911776" TEXT="Uz" BACKGROUND_COLOR="#bee8bd" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="183 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="62" MAX_WIDTH="62">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#8f6a3d" WIDTH="4"/>
                             </node>
-                            <node ID="ID_371054288" TEXT="Hul" BACKGROUND_COLOR="#bee8bd" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="71 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="62" MAX_WIDTH="62">
+                            <node ID="ID_371054288" TEXT="Hul" BACKGROUND_COLOR="#bee8bd" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="71 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="62" MAX_WIDTH="62">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#8f6a3d" WIDTH="4"/>
                             </node>
-                            <node ID="ID_331029120" TEXT="Gether" BACKGROUND_COLOR="#bee8bd" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="41 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="91" MAX_WIDTH="91">
+                            <node ID="ID_331029120" TEXT="Gether" BACKGROUND_COLOR="#bee8bd" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="41 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="91" MAX_WIDTH="91">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#8f6a3d" WIDTH="4"/>
                             </node>
-                            <node ID="ID_331103296" TEXT="Mash" BACKGROUND_COLOR="#bee8bd" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="182 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="75" MAX_WIDTH="75">
+                            <node ID="ID_331103296" TEXT="Mash" BACKGROUND_COLOR="#bee8bd" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="182 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="75" MAX_WIDTH="75">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#8f6a3d" WIDTH="4"/>
                             </node>
                           </node>
                         </node>
-                        <node ID="ID_218866176" BACKGROUND_COLOR="#cdd4f3" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="31 px" VSHIFT_QUANTITY="1915 px" MIN_WIDTH="551" MAX_WIDTH="551">
+                        <node ID="ID_218866176" BACKGROUND_COLOR="#cdd4f3" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="31 px" VSHIFT_QUANTITY="1915 px" MIN_WIDTH="551" MAX_WIDTH="551">
                           <font NAME="LiberationSans" SIZE="38" BOLD="true"/>
                           <edge COLOR="#a3dd8a" WIDTH="4"/>
                           <richcontent TYPE="NODE"><html><head/><body>
@@ -1709,42 +1709,42 @@
                             <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-style: italic">Ham culture intermixed with Shem and Japheth</span></p>
                             <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-style: italic">on many occasions along the march of time</span></p>
                           </body></html></richcontent>
-                          <node ID="ID_331165936" BACKGROUND_COLOR="#f2dcbf" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="1391 px" VSHIFT_QUANTITY="848 px" MIN_WIDTH="178" MAX_WIDTH="178">
+                          <node ID="ID_331165936" BACKGROUND_COLOR="#f2dcbf" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="1391 px" VSHIFT_QUANTITY="848 px" MIN_WIDTH="178" MAX_WIDTH="178">
                             <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                             <edge COLOR="#8798e3" WIDTH="4"/>
                             <richcontent TYPE="NODE"><html><head/><body>
                               <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-weight: bold">Cush</span></p>
                               <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"Dark or Black"</span></p>
                             </body></html></richcontent>
-                            <node ID="ID_346743664" TEXT="Seba" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="774 px" VSHIFT_QUANTITY="176 px" MIN_WIDTH="70" MAX_WIDTH="70">
+                            <node ID="ID_346743664" TEXT="Seba" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="774 px" VSHIFT_QUANTITY="176 px" MIN_WIDTH="70" MAX_WIDTH="70">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#e0ab64" WIDTH="4"/>
                             </node>
-                            <node ID="ID_346772856" TEXT="Havilah" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="653 px" VSHIFT_QUANTITY="176 px" MIN_WIDTH="99" MAX_WIDTH="99">
+                            <node ID="ID_346772856" TEXT="Havilah" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="653 px" VSHIFT_QUANTITY="176 px" MIN_WIDTH="99" MAX_WIDTH="99">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#e0ab64" WIDTH="4"/>
                             </node>
-                            <node ID="ID_346827704" TEXT="Sabtah" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="504 px" VSHIFT_QUANTITY="176 px" MIN_WIDTH="94" MAX_WIDTH="94">
+                            <node ID="ID_346827704" TEXT="Sabtah" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="504 px" VSHIFT_QUANTITY="176 px" MIN_WIDTH="94" MAX_WIDTH="94">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#e0ab64" WIDTH="4"/>
                             </node>
-                            <node ID="ID_346885816" TEXT="Sabteca" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="360 px" VSHIFT_QUANTITY="176 px" MIN_WIDTH="106" MAX_WIDTH="106">
+                            <node ID="ID_346885816" TEXT="Sabteca" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="360 px" VSHIFT_QUANTITY="176 px" MIN_WIDTH="106" MAX_WIDTH="106">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#e0ab64" WIDTH="4"/>
                             </node>
-                            <node ID="ID_346952920" TEXT="Raamah" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="122 px" VSHIFT_QUANTITY="176 px" MIN_WIDTH="107" MAX_WIDTH="107">
+                            <node ID="ID_346952920" TEXT="Raamah" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="122 px" VSHIFT_QUANTITY="176 px" MIN_WIDTH="107" MAX_WIDTH="107">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#e0ab64" WIDTH="4"/>
-                              <node ID="ID_347097264" TEXT="Sheba" BACKGROUND_COLOR="#b6bdbb" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="58 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="85" MAX_WIDTH="85">
+                              <node ID="ID_347097264" TEXT="Sheba" BACKGROUND_COLOR="#b6bdbb" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="58 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="85" MAX_WIDTH="85">
                                 <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                 <edge COLOR="#ae5077" WIDTH="4"/>
                               </node>
-                              <node ID="ID_347164560" TEXT="Dedan" BACKGROUND_COLOR="#b6bdbb" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="78 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="87" MAX_WIDTH="87">
+                              <node ID="ID_347164560" TEXT="Dedan" BACKGROUND_COLOR="#b6bdbb" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="78 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="87" MAX_WIDTH="87">
                                 <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                                 <edge COLOR="#ae5077" WIDTH="4"/>
                               </node>
                             </node>
-                            <node ID="ID_347053824" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="118 px" VSHIFT_QUANTITY="176 px" MIN_WIDTH="833" MAX_WIDTH="833">
+                            <node ID="ID_347053824" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="118 px" VSHIFT_QUANTITY="176 px" MIN_WIDTH="833" MAX_WIDTH="833">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#e0ab64" WIDTH="4"/>
                               <richcontent TYPE="NODE"><html><head/><body>
@@ -1761,7 +1761,7 @@
                               </body></html></richcontent>
                             </node>
                           </node>
-                          <node ID="ID_331298488" BACKGROUND_COLOR="#f2dcbf" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="145 px" VSHIFT_QUANTITY="848 px" MIN_WIDTH="164" MAX_WIDTH="164">
+                          <node ID="ID_331298488" BACKGROUND_COLOR="#f2dcbf" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="145 px" VSHIFT_QUANTITY="848 px" MIN_WIDTH="164" MAX_WIDTH="164">
                             <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                             <edge COLOR="#8798e3" WIDTH="4"/>
                             <richcontent TYPE="NODE"><html><head/><body>
@@ -1771,89 +1771,89 @@
                               <p>&#160;</p>
                               <p>&#160;</p>
                             </body></html></richcontent>
-                            <node ID="ID_347197768" TEXT="Ludim" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="485 px" VSHIFT_QUANTITY="276 px" MIN_WIDTH="85" MAX_WIDTH="85">
+                            <node ID="ID_347197768" TEXT="Ludim" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="485 px" VSHIFT_QUANTITY="276 px" MIN_WIDTH="85" MAX_WIDTH="85">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#e0ab64" WIDTH="4"/>
                             </node>
-                            <node ID="ID_347217344" TEXT="Anamim" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="349 px" VSHIFT_QUANTITY="276 px" MIN_WIDTH="108" MAX_WIDTH="108">
+                            <node ID="ID_347217344" TEXT="Anamim" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="349 px" VSHIFT_QUANTITY="276 px" MIN_WIDTH="108" MAX_WIDTH="108">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#e0ab64" WIDTH="4"/>
                             </node>
-                            <node ID="ID_347266344" TEXT="Lehabim" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="191 px" VSHIFT_QUANTITY="276 px" MIN_WIDTH="113" MAX_WIDTH="113">
+                            <node ID="ID_347266344" TEXT="Lehabim" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="191 px" VSHIFT_QUANTITY="276 px" MIN_WIDTH="113" MAX_WIDTH="113">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#e0ab64" WIDTH="4"/>
                             </node>
-                            <node ID="ID_347334592" TEXT="Naphtuhim" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="28 px" VSHIFT_QUANTITY="276 px" MIN_WIDTH="140" MAX_WIDTH="140">
+                            <node ID="ID_347334592" TEXT="Naphtuhim" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="28 px" VSHIFT_QUANTITY="276 px" MIN_WIDTH="140" MAX_WIDTH="140">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#e0ab64" WIDTH="4"/>
                             </node>
-                            <node ID="ID_347395792" TEXT="Pathrusim" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="161 px" VSHIFT_QUANTITY="276 px" MIN_WIDTH="131" MAX_WIDTH="131">
+                            <node ID="ID_347395792" TEXT="Pathrusim" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="161 px" VSHIFT_QUANTITY="276 px" MIN_WIDTH="131" MAX_WIDTH="131">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#e0ab64" WIDTH="4"/>
                             </node>
-                            <node ID="ID_347441688" TEXT="Casluhim" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="343 px" VSHIFT_QUANTITY="276 px" MIN_WIDTH="122" MAX_WIDTH="122">
+                            <node ID="ID_347441688" TEXT="Casluhim" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="343 px" VSHIFT_QUANTITY="276 px" MIN_WIDTH="122" MAX_WIDTH="122">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#e0ab64" WIDTH="4"/>
                             </node>
-                            <node ID="ID_347254864" TEXT="Caphtorim" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="515 px" VSHIFT_QUANTITY="276 px" MIN_WIDTH="134" MAX_WIDTH="134">
+                            <node ID="ID_347254864" TEXT="Caphtorim" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="515 px" VSHIFT_QUANTITY="276 px" MIN_WIDTH="134" MAX_WIDTH="134">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#e0ab64" WIDTH="4"/>
                             </node>
                           </node>
-                          <node ID="ID_346502520" TEXT="Put" BACKGROUND_COLOR="#f2dcbf" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="869 px" VSHIFT_QUANTITY="848 px" MIN_WIDTH="62" MAX_WIDTH="62">
+                          <node ID="ID_346502520" TEXT="Put" BACKGROUND_COLOR="#f2dcbf" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="869 px" VSHIFT_QUANTITY="848 px" MIN_WIDTH="62" MAX_WIDTH="62">
                             <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                             <edge COLOR="#8798e3" WIDTH="4"/>
                           </node>
-                          <node ID="ID_346541040" TEXT="Canaan" BACKGROUND_COLOR="#f2dcbf" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="1811 px" VSHIFT_QUANTITY="848 px" MIN_WIDTH="100" MAX_WIDTH="100">
+                          <node ID="ID_346541040" TEXT="Canaan" BACKGROUND_COLOR="#f2dcbf" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="1811 px" VSHIFT_QUANTITY="848 px" MIN_WIDTH="100" MAX_WIDTH="100">
                             <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                             <edge COLOR="#8798e3" WIDTH="4"/>
-                            <node ID="ID_348940992" TEXT="Sidon" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="805 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="80" MAX_WIDTH="80">
+                            <node ID="ID_348940992" TEXT="Sidon" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="805 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="80" MAX_WIDTH="80">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#e0ab64" WIDTH="4"/>
                             </node>
-                            <node ID="ID_348997592" TEXT="Heth" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="675 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="66" MAX_WIDTH="66">
+                            <node ID="ID_348997592" TEXT="Heth" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="675 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="66" MAX_WIDTH="66">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#e0ab64" WIDTH="4"/>
                             </node>
-                            <node ID="ID_349051448" TEXT="Jebusites" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="558 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="125" MAX_WIDTH="125">
+                            <node ID="ID_349051448" TEXT="Jebusites" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="558 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="125" MAX_WIDTH="125">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#e0ab64" WIDTH="4"/>
                             </node>
-                            <node ID="ID_349127912" TEXT="Amorites" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="383 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="118" MAX_WIDTH="118">
+                            <node ID="ID_349127912" TEXT="Amorites" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="383 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="118" MAX_WIDTH="118">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#e0ab64" WIDTH="4"/>
                             </node>
-                            <node ID="ID_348916520" TEXT="Girgashites" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="215 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="147" MAX_WIDTH="147">
+                            <node ID="ID_348916520" TEXT="Girgashites" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="215 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="147" MAX_WIDTH="147">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#e0ab64" WIDTH="4"/>
                             </node>
-                            <node ID="ID_349215064" TEXT="Hivites" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="19 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="92" MAX_WIDTH="92">
+                            <node ID="ID_349215064" TEXT="Hivites" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="19 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="92" MAX_WIDTH="92">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#e0ab64" WIDTH="4"/>
                             </node>
-                            <node ID="ID_349267704" TEXT="Arkites" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="124 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="95" MAX_WIDTH="95">
+                            <node ID="ID_349267704" TEXT="Arkites" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="124 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="95" MAX_WIDTH="95">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#e0ab64" WIDTH="4"/>
                             </node>
-                            <node ID="ID_349332456" TEXT="Sinites" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="268 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="92" MAX_WIDTH="92">
+                            <node ID="ID_349332456" TEXT="Sinites" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="268 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="92" MAX_WIDTH="92">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#e0ab64" WIDTH="4"/>
                             </node>
-                            <node ID="ID_349399272" TEXT="Arvadites" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="411 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="123" MAX_WIDTH="123">
+                            <node ID="ID_349399272" TEXT="Arvadites" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="411 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="123" MAX_WIDTH="123">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#e0ab64" WIDTH="4"/>
                             </node>
-                            <node ID="ID_349204576" TEXT="Zemarites" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="584 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="127" MAX_WIDTH="127">
+                            <node ID="ID_349204576" TEXT="Zemarites" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="584 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="127" MAX_WIDTH="127">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#e0ab64" WIDTH="4"/>
                             </node>
-                            <node ID="ID_349512424" TEXT="Hamathites" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="761 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="144" MAX_WIDTH="144">
+                            <node ID="ID_349512424" TEXT="Hamathites" BACKGROUND_COLOR="#ddb6c7" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="761 px" VSHIFT_QUANTITY="142 px" MIN_WIDTH="144" MAX_WIDTH="144">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#e0ab64" WIDTH="4"/>
                             </node>
                           </node>
                         </node>
-                        <node ID="ID_318522336" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="867 px" VSHIFT_QUANTITY="107 px" MIN_WIDTH="589" MAX_WIDTH="589">
+                        <node ID="ID_318522336" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="867 px" VSHIFT_QUANTITY="107 px" MIN_WIDTH="589" MAX_WIDTH="589">
                           <font NAME="LiberationSans" SIZE="38" BOLD="true"/>
                           <edge COLOR="#a3dd8a" WIDTH="4"/>
                           <richcontent TYPE="NODE"><html><head/><body>
@@ -1888,7 +1888,7 @@
                             <p><span style="font-family: LiberationSans; font-size: 15pt; color: #ffffff; font-style: italic">and many others. Likely intermixed with</span></p>
                             <p><span style="font-family: LiberationSans; font-size: 15pt; color: #ffffff; font-style: italic">Shem and Ham cultures on many occasions</span></p>
                           </body></html></richcontent>
-                          <node ID="ID_349568216" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="1315 px" VSHIFT_QUANTITY="-426 px" MIN_WIDTH="547" MAX_WIDTH="547">
+                          <node ID="ID_349568216" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="1315 px" VSHIFT_QUANTITY="-426 px" MIN_WIDTH="547" MAX_WIDTH="547">
                             <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                             <edge COLOR="#35e1c8" WIDTH="4"/>
                             <richcontent TYPE="NODE"><html><head/><body>
@@ -1899,7 +1899,7 @@
                               <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-style: italic">who appeared north of the Black Sea and later </span></p>
                               <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-style: italic">swept into Anatolia</span></p>
                             </body></html></richcontent>
-                            <node ID="ID_349996880" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="854 px" VSHIFT_QUANTITY="-236 px" MIN_WIDTH="558" MAX_WIDTH="558">
+                            <node ID="ID_349996880" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="854 px" VSHIFT_QUANTITY="-236 px" MIN_WIDTH="558" MAX_WIDTH="558">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#8f6a3d" WIDTH="4"/>
                               <richcontent TYPE="NODE"><html><head/><body>
@@ -1914,7 +1914,7 @@
                                 <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-style: italic">Ashkenazi Jews</span></p>
                               </body></html></richcontent>
                             </node>
-                            <node ID="ID_350059312" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="36 px" VSHIFT_QUANTITY="-330 px" MIN_WIDTH="170" MAX_WIDTH="170">
+                            <node ID="ID_350059312" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="36 px" VSHIFT_QUANTITY="-330 px" MIN_WIDTH="170" MAX_WIDTH="170">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#8f6a3d" WIDTH="4"/>
                               <richcontent TYPE="NODE"><html><head/><body>
@@ -1923,7 +1923,7 @@
                                 <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-style: italic">No one knows</span></p>
                               </body></html></richcontent>
                             </node>
-                            <node ID="ID_349827032" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="1034 px" VSHIFT_QUANTITY="177 px" MIN_WIDTH="638" MAX_WIDTH="638">
+                            <node ID="ID_349827032" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="1034 px" VSHIFT_QUANTITY="177 px" MIN_WIDTH="638" MAX_WIDTH="638">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#8f6a3d" WIDTH="4"/>
                               <richcontent TYPE="NODE"><html><head/><body>
@@ -1946,7 +1946,7 @@
                               </body></html></richcontent>
                             </node>
                           </node>
-                          <node ID="ID_349683632" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="181 px" VSHIFT_QUANTITY="-318 px" MIN_WIDTH="229" MAX_WIDTH="229">
+                          <node ID="ID_349683632" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="181 px" VSHIFT_QUANTITY="-318 px" MIN_WIDTH="229" MAX_WIDTH="229">
                             <font NAME="LiberationSans" SIZE="26" BOLD="true"/>
                             <edge COLOR="#35e1c8" WIDTH="4"/>
                             <richcontent TYPE="NODE"><html><head/><body>
@@ -1956,7 +1956,7 @@
                               <p><span style="font-family: LiberationSans; font-size: 26pt; color: #ffffff; font-style: italic">Gog from Magog</span></p>
                             </body></html></richcontent>
                           </node>
-                          <node ID="ID_349741624" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="927 px" VSHIFT_QUANTITY="370 px" MIN_WIDTH="780" MAX_WIDTH="780">
+                          <node ID="ID_349741624" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="927 px" VSHIFT_QUANTITY="370 px" MIN_WIDTH="780" MAX_WIDTH="780">
                             <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                             <edge COLOR="#35e1c8" WIDTH="4"/>
                             <richcontent TYPE="NODE"><html><head/><body>
@@ -1964,14 +1964,14 @@
                               <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-style: italic">Iranian people of the Zagros, capital Ecbatana, later absorbed into the Achaemenid empire</span></p>
                             </body></html></richcontent>
                           </node>
-                          <node ID="ID_349500944" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="722 px" VSHIFT_QUANTITY="779 px" MIN_WIDTH="501" MAX_WIDTH="501">
+                          <node ID="ID_349500944" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="722 px" VSHIFT_QUANTITY="779 px" MIN_WIDTH="501" MAX_WIDTH="501">
                             <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                             <edge COLOR="#35e1c8" WIDTH="4"/>
                             <richcontent TYPE="NODE"><html><head/><body>
                               <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-weight: bold">Javan</span></p>
                               <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-style: italic">the Ionians (Greek Iáwones, Hebrew Yāwān)</span></p>
                             </body></html></richcontent>
-                            <node ID="ID_350179568" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="753 px" VSHIFT_QUANTITY="-445 px" MIN_WIDTH="370" MAX_WIDTH="370">
+                            <node ID="ID_350179568" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="753 px" VSHIFT_QUANTITY="-445 px" MIN_WIDTH="370" MAX_WIDTH="370">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#8f6a3d" WIDTH="4"/>
                               <richcontent TYPE="NODE"><html><head/><body>
@@ -1980,7 +1980,7 @@
                                 <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">the Bronze Age name for Cyprus</span></p>
                               </body></html></richcontent>
                             </node>
-                            <node ID="ID_350241560" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="1623 px" VSHIFT_QUANTITY="-287 px" MIN_WIDTH="773" MAX_WIDTH="773">
+                            <node ID="ID_350241560" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="1623 px" VSHIFT_QUANTITY="-287 px" MIN_WIDTH="773" MAX_WIDTH="773">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#8f6a3d" WIDTH="4"/>
                               <richcontent TYPE="NODE"><html><head/><body>
@@ -2012,7 +2012,7 @@
                                 <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-style: italic">opposite direction, edge of the map).</span></p>
                               </body></html></richcontent>
                             </node>
-                            <node ID="ID_350311528" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="1004 px" VSHIFT_QUANTITY="620 px" MIN_WIDTH="575" MAX_WIDTH="575">
+                            <node ID="ID_350311528" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="1004 px" VSHIFT_QUANTITY="620 px" MIN_WIDTH="575" MAX_WIDTH="575">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#8f6a3d" WIDTH="4"/>
                               <richcontent TYPE="NODE"><html><head/><body>
@@ -2040,7 +2040,7 @@
                                 <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-style: italic">"who is currently invading us from the sea."</span></p>
                               </body></html></richcontent>
                             </node>
-                            <node ID="ID_350386616" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="240 px" VSHIFT_QUANTITY="1247 px" MIN_WIDTH="188" MAX_WIDTH="188">
+                            <node ID="ID_350386616" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="240 px" VSHIFT_QUANTITY="1247 px" MIN_WIDTH="188" MAX_WIDTH="188">
                               <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                               <edge COLOR="#8f6a3d" WIDTH="4"/>
                               <richcontent TYPE="NODE"><html><head/><body>
@@ -2049,7 +2049,7 @@
                               </body></html></richcontent>
                             </node>
                           </node>
-                          <node ID="ID_349905504" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="515 px" VSHIFT_QUANTITY="1474 px" MIN_WIDTH="725" MAX_WIDTH="725">
+                          <node ID="ID_349905504" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="515 px" VSHIFT_QUANTITY="1474 px" MIN_WIDTH="725" MAX_WIDTH="725">
                             <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                             <edge COLOR="#35e1c8" WIDTH="4"/>
                             <richcontent TYPE="NODE"><html><head/><body>
@@ -2058,7 +2058,7 @@
                               <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-style: italic">The Tabal and Mushki of Assyrian records, Anatolian kingdoms in eastern/central Asia Minor, post-Hittite. Herodotus' Tibarenoi and Moschoi.</span></p>
                             </body></html></richcontent>
                           </node>
-                          <node ID="ID_349961056" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="275 px" VSHIFT_QUANTITY="1471 px" MIN_WIDTH="459" MAX_WIDTH="459">
+                          <node ID="ID_349961056" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="275 px" VSHIFT_QUANTITY="1471 px" MIN_WIDTH="459" MAX_WIDTH="459">
                             <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
                             <edge COLOR="#35e1c8" WIDTH="4"/>
                             <richcontent TYPE="NODE"><html><head/><body>
@@ -2079,7 +2079,7 @@
           </node>
         </node>
       </node>
-      <node ID="ID_351887472" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="336 px" VSHIFT_QUANTITY="-1375 px" MIN_WIDTH="1055" MAX_WIDTH="1055">
+      <node ID="ID_351887472" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="336 px" VSHIFT_QUANTITY="-1375 px" MIN_WIDTH="1055" MAX_WIDTH="1055">
         <font NAME="LiberationSans" SIZE="43" BOLD="true"/>
         <edge COLOR="#cecf4d" WIDTH="4"/>
         <richcontent TYPE="NODE"><html><head/><body>
@@ -2104,14 +2104,14 @@
         </body></html></richcontent>
       </node>
     </node>
-    <node ID="ID_351496832" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="701 px" VSHIFT_QUANTITY="280 px" MIN_WIDTH="230" MAX_WIDTH="230">
+    <node ID="ID_351496832" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="530 px" VSHIFT_QUANTITY="1087 px" MIN_WIDTH="230" MAX_WIDTH="230">
       <font NAME="LiberationSans" SIZE="22"/>
       <richcontent TYPE="NODE"><html><head/><body>
         <p>Unspecified relation</p>
         <p>I.e. irrelevant  / </p>
         <p>besides the point</p>
       </body></html></richcontent>
-      <node ID="ID_350426800" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="827 px" VSHIFT_QUANTITY="50 px" MIN_WIDTH="618" MAX_WIDTH="618">
+      <node ID="ID_350426800" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="827 px" VSHIFT_QUANTITY="50 px" MIN_WIDTH="618" MAX_WIDTH="618">
         <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
         <edge COLOR="#e24271" WIDTH="4"/>
         <richcontent TYPE="NODE"><html><head/><body>
@@ -2130,7 +2130,7 @@
           <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"Pleasure/delight" — </span></p>
           <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">from עדן (eden), same consonantal field as Eden itself</span></p>
         </body></html></richcontent>
-        <node ID="ID_350675848" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="50 px" VSHIFT_QUANTITY="1049 px" MIN_WIDTH="192" MAX_WIDTH="192">
+        <node ID="ID_350675848" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="50 px" VSHIFT_QUANTITY="1049 px" MIN_WIDTH="192" MAX_WIDTH="192">
           <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
           <edge COLOR="#cf2341" WIDTH="4"/>
           <richcontent TYPE="NODE"><html><head/><body>
@@ -2138,12 +2138,12 @@
             <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">(Stream, flowing</span></p>
             <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">To carry forth)</span></p>
           </body></html></richcontent>
-          <node ID="ID_350854424" TEXT="Nomadic Herdsmen" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="16 px" VSHIFT_QUANTITY="281 px" MIN_WIDTH="228" MAX_WIDTH="228">
+          <node ID="ID_350854424" TEXT="Nomadic Herdsmen" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="16 px" VSHIFT_QUANTITY="281 px" MIN_WIDTH="228" MAX_WIDTH="228">
             <font NAME="LiberationSans" SIZE="22"/>
             <edge COLOR="#d07021" WIDTH="4"/>
           </node>
         </node>
-        <node ID="ID_350770584" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="402 px" VSHIFT_QUANTITY="1033 px" MIN_WIDTH="192" MAX_WIDTH="192">
+        <node ID="ID_350770584" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="402 px" VSHIFT_QUANTITY="1033 px" MIN_WIDTH="192" MAX_WIDTH="192">
           <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
           <edge COLOR="#cf2341" WIDTH="4"/>
           <richcontent TYPE="NODE"><html><head/><body>
@@ -2151,7 +2151,7 @@
             <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">(Stream, flowing</span></p>
             <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">To carry forth)</span></p>
           </body></html></richcontent>
-          <node ID="ID_350918568" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="29 px" VSHIFT_QUANTITY="261 px" MIN_WIDTH="146" MAX_WIDTH="146">
+          <node ID="ID_350918568" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="29 px" VSHIFT_QUANTITY="261 px" MIN_WIDTH="146" MAX_WIDTH="146">
             <font NAME="LiberationSans" SIZE="22"/>
             <edge COLOR="#d07021" WIDTH="4"/>
             <richcontent TYPE="NODE"><html><head/><body>
@@ -2161,7 +2161,7 @@
           </node>
         </node>
       </node>
-      <node ID="ID_350556488" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="129 px" VSHIFT_QUANTITY="181 px" MIN_WIDTH="763" MAX_WIDTH="763">
+      <node ID="ID_350556488" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="129 px" VSHIFT_QUANTITY="181 px" MIN_WIDTH="763" MAX_WIDTH="763">
         <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
         <edge COLOR="#858088" WIDTH="4"/>
         <richcontent TYPE="NODE"><html><head/><body>
@@ -2176,7 +2176,7 @@
           <p>&#160;</p>
           <p><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">"Dark one" — shadow as absenc</span><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-weight: bold">e of light, the h</span><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff">i</span><span style="font-family: LiberationSans; font-size: 22pt; color: #ffffff; font-weight: bold">dden</span></p>
         </body></html></richcontent>
-        <node ID="ID_350992208" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="231 px" VSHIFT_QUANTITY="1084 px" MIN_WIDTH="223" MAX_WIDTH="223">
+        <node ID="ID_350992208" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="231 px" VSHIFT_QUANTITY="1084 px" MIN_WIDTH="223" MAX_WIDTH="223">
           <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
           <edge COLOR="#2f77da" WIDTH="4"/>
           <richcontent TYPE="NODE"><html><head/><body>
@@ -2186,7 +2186,7 @@
           </body></html></richcontent>
           <arrowlink DESTINATION="ID_352132520" COLOR="#2f77da" MIDDLE_LABEL="Father of" STARTARROW="NONE" ENDARROW="DEFAULT"/>
         </node>
-        <node ID="ID_351070376" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="left" HGAP_QUANTITY="855 px" VSHIFT_QUANTITY="1232 px" MIN_WIDTH="329" MAX_WIDTH="329">
+        <node ID="ID_351070376" BACKGROUND_COLOR="#141414" COLOR="#ffffff" POSITION="right" HGAP_QUANTITY="855 px" VSHIFT_QUANTITY="1232 px" MIN_WIDTH="329" MAX_WIDTH="329">
           <font NAME="LiberationSans" SIZE="22" BOLD="true"/>
           <edge COLOR="#30b082" WIDTH="4"/>
           <richcontent TYPE="NODE"><html><head/><body>
