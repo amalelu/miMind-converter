@@ -578,10 +578,11 @@ def _emit_node(node: MiMindNode, lines: list[str], depth: int, is_root: bool = F
         delta_y = node.relative_y - parent.relative_y
 
         # Position (left/right side of parent)
+        # miMind's X axis is inverted relative to Freeplane's branch direction
         if delta_x < 0:
-            attrs.append('POSITION="left"')
-        else:
             attrs.append('POSITION="right"')
+        else:
+            attrs.append('POSITION="left"')
 
         # HGAP = horizontal distance from parent, VSHIFT = vertical offset
         hgap = round(abs(delta_x))
