@@ -512,11 +512,22 @@ def build_tree(
     # Sort root nodes by index
     root_nodes.sort(key=lambda n: n.index)
 
+    # Compute centroid of root nodes so deltas are measured from the visual
+    # centre of the canvas rather than from the arbitrary (0,0) origin.
+    if root_nodes:
+        centroid_x = sum(n.relative_x for n in root_nodes) / len(root_nodes)
+        centroid_y = sum(n.relative_y for n in root_nodes) / len(root_nodes)
+    else:
+        centroid_x = 0.0
+        centroid_y = 0.0
+
     # Create synthetic root
     synthetic = MiMindNode(
         node_id="synthetic_root",
         parent_id="",
         text=map_name,
+        relative_x=centroid_x,
+        relative_y=centroid_y,
         children=root_nodes,
     )
 
@@ -578,11 +589,11 @@ def _emit_node(node: MiMindNode, lines: list[str], depth: int, is_root: bool = F
         delta_y = node.relative_y - parent.relative_y
 
         # Position (left/right side of parent)
-        # miMind's X axis is inverted relative to Freeplane's branch direction
+        # delta_x < 0 means child is to the LEFT of parent on the canvas
         if delta_x < 0:
-            attrs.append('POSITION="right"')
-        else:
             attrs.append('POSITION="left"')
+        else:
+            attrs.append('POSITION="right"')
 
         # HGAP = horizontal distance from parent, VSHIFT = vertical offset
         hgap = round(abs(delta_x))
