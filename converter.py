@@ -542,7 +542,7 @@ def _indent(depth: int) -> str:
     return "  " * (depth + 1)
 
 
-def _emit_node(node: MiMindNode, lines: list[str], depth: int, is_root: bool = False):
+def _emit_node(node: MiMindNode, lines: list[str], depth: int, is_root: bool = False, parent: MiMindNode | None = None):
     """Recursively emit a <node> element."""
     ind = _indent(depth)
     attrs = []
@@ -571,19 +571,24 @@ def _emit_node(node: MiMindNode, lines: list[str], depth: int, is_root: bool = F
     if node.folded:
         attrs.append('FOLDED="true"')
 
-    # Position (left/right side of parent) for non-root nodes
-    if node.node_id != "synthetic_root" and node.parent_id:
-        if node.relative_x < 0:
+    # Compute delta from parent's absolute canvas position
+    # miMind iRelativeX/Y are ABSOLUTE canvas coords, not relative to parent
+    if node.node_id != "synthetic_root" and parent is not None:
+        delta_x = node.relative_x - parent.relative_x
+        delta_y = node.relative_y - parent.relative_y
+
+        # Position (left/right side of parent)
+        if delta_x < 0:
             attrs.append('POSITION="left"')
         else:
             attrs.append('POSITION="right"')
 
-    # Positioning: HGAP and VSHIFT from miMind relative coordinates
-    if node.node_id != "synthetic_root" and (node.relative_x != 0 or node.relative_y != 0):
-        hgap = round(abs(node.relative_x))
-        vshift = round(node.relative_y)
-        attrs.append(f'HGAP_QUANTITY="{hgap} px"')
-        attrs.append(f'VSHIFT_QUANTITY="{vshift} px"')
+        # HGAP = horizontal distance from parent, VSHIFT = vertical offset
+        hgap = round(abs(delta_x))
+        vshift = round(delta_y)
+        if hgap != 0 or vshift != 0:
+            attrs.append(f'HGAP_QUANTITY="{hgap} px"')
+            attrs.append(f'VSHIFT_QUANTITY="{vshift} px"')
 
     # Node dimensions
     if node.width > 0:
@@ -636,7 +641,7 @@ def _emit_node(node: MiMindNode, lines: list[str], depth: int, is_root: bool = F
 
     # Children
     for child in node.children:
-        _emit_node(child, lines, depth + 1)
+        _emit_node(child, lines, depth + 1, parent=node)
 
     lines.append(f"{ind}</node>")
 
