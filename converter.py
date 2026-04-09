@@ -50,6 +50,11 @@ class MiMindNode:
     color_schema_level: int = -1
     color_groups: list[dict] = field(default_factory=list)
     children: list["MiMindNode"] = field(default_factory=list)
+    # Positioning
+    relative_x: float = 0.0
+    relative_y: float = 0.0
+    width: float = 0.0
+    height: float = 0.0
     # Edge info (from parent-child connection pointing to this node)
     edge_color: str = ""
     edge_width: int = 0
@@ -304,6 +309,24 @@ def _parse_node(mm_node: ET.Element) -> MiMindNode:
     except ValueError:
         layout_dir = 0
 
+    # Extract positioning
+    try:
+        rel_x = float(mm_node.get("iRelativeX", "0"))
+    except ValueError:
+        rel_x = 0.0
+    try:
+        rel_y = float(mm_node.get("iRelativeY", "0"))
+    except ValueError:
+        rel_y = 0.0
+    try:
+        width = float(mm_node.get("iWidth", "0"))
+    except ValueError:
+        width = 0.0
+    try:
+        height = float(mm_node.get("iHeight", "0"))
+    except ValueError:
+        height = 0.0
+
     # Extract text content
     text = ""
     text_runs = []
@@ -399,6 +422,10 @@ def _parse_node(mm_node: ET.Element) -> MiMindNode:
         notes=notes,
         shape_type=shape_type,
         layout_direction=layout_dir,
+        relative_x=rel_x,
+        relative_y=rel_y,
+        width=width,
+        height=height,
         color_schema_level=color_schema_level,
         color_groups=color_groups,
     )
@@ -544,10 +571,24 @@ def _emit_node(node: MiMindNode, lines: list[str], depth: int, is_root: bool = F
     if node.folded:
         attrs.append('FOLDED="true"')
 
-    # Position for root's direct children
-    if is_root and node.node_id == "synthetic_root":
-        pass  # root node itself has no POSITION
-    # We don't set POSITION on synthetic root's children since they're all separate trees
+    # Position (left/right side of parent) for non-root nodes
+    if node.node_id != "synthetic_root" and node.parent_id:
+        if node.relative_x < 0:
+            attrs.append('POSITION="left"')
+        else:
+            attrs.append('POSITION="right"')
+
+    # Positioning: HGAP and VSHIFT from miMind relative coordinates
+    if node.node_id != "synthetic_root" and (node.relative_x != 0 or node.relative_y != 0):
+        hgap = round(abs(node.relative_x))
+        vshift = round(node.relative_y)
+        attrs.append(f'HGAP_QUANTITY="{hgap} px"')
+        attrs.append(f'VSHIFT_QUANTITY="{vshift} px"')
+
+    # Node dimensions
+    if node.width > 0:
+        attrs.append(f'MIN_WIDTH="{round(node.width)}"')
+        attrs.append(f'MAX_WIDTH="{round(node.width)}"')
 
     attr_str = " ".join(attrs)
     lines.append(f"{ind}<node {attr_str}>")
